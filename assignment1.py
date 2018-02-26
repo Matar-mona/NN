@@ -1,4 +1,6 @@
 from sklearn import metrics
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 import itertools
 import numpy as np
@@ -135,11 +137,8 @@ def calc_ratio(number):
     return number_ratio
    
 def g_step(X):
-	for i in range(len(X)):
-		if X[i] < 0:
-			X[i] = -1
-		if X[i] => 0:
-			X[i] = 1
+	X[X >= 0] = 1
+	X[X < 0] = -1
 	return X 
 
 def main():
@@ -152,16 +151,26 @@ def main():
 	#task1_2(train_x, train_y, test_x, test_y)
 	#task3(train_x, train_y, test_x, test_y)
 
-	w = np.random.randn(257,10)
-	w[0,:] = 1
+	np.random.seed(42)
+	w = np.random.randn(10,257)*0.01
+	w[:,0] = 1
+	learning_rate = 0.05
 	g = np.zeros((len(train_x),10))
 	
-	while accuracy < 1:
-		for i in range(10):
-			a = np.dot(w[1:,i],train_x)+w[0,:]
-			g[:,i] = g_step(a)
-			
+	y_true = np.full((10,len(train_y)), fill_value=-1) 
+	for i in range(len(train_y)):
+		y_true[int(train_y[i]),i]=1
 
+	iterations = 0
+	while iterations < 10:
+		a = np.dot(w[:,1:],train_x.T)+w[:,0].reshape(-1,1)
+		g = g_step(a)
+		diff = np.subtract(y_true,g)
+		w[:,1:] += learning_rate*np.dot(y_true[:,diff.nonzero()[1][0]].reshape(-1,1),train_x[diff.nonzero()[1][0],:].reshape(1,-1))
+		iterations += 1
+	
+	accuracy = 1-np.sum(1*(diff.sum(axis=0)>0))/float(len(train_x))
+	print 'Accuracy after {1} iterations: {0}%'.format(accuracy*100,iterations)
 
 if __name__ == '__main__':
     main()
