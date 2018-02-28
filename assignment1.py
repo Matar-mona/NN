@@ -119,6 +119,38 @@ def task3(train_x, train_y, test_x, test_y):
     accuracy = (np.sum(1*classified_five[:len(fives)]==1)+
     				 np.sum(1*classified_five[len(fives):]==0))/float(len(classified_five))
     print 'Accuracy : {}%'.format(accuracy*100)
+    
+def task4(train_x, train_y, test_x, test_y):
+	w = np.random.randn(10,257)*0.01
+	w[:,0] = 1
+	learning_rate = 0.01
+
+	iterations = 0
+	accuracy = 0
+	acc = []
+	while accuracy < 0.97:
+		a = np.dot(w[:,1:],train_x.T)+w[:,0].reshape(-1,1)
+		y_h = a.argmax(axis=0)
+		missclassified = 1*np.not_equal(y_h,train_y)
+		for i in range(len(missclassified)):
+			w[int(train_y[i]),1:] += learning_rate*missclassified[i]*train_x[i,:]
+		accuracy = 1-np.sum(missclassified)/float(len(missclassified))
+		acc.append(accuracy)
+		iterations += 1
+		if iterations > 2000:
+			break
+	
+	acctrain = 1-np.sum(missclassified)/float(len(missclassified))
+	print 'Accuracy on training set after {1} iterations: {0}%'.format(acctrain*100,iterations)
+	
+	plt.plot(np.arange(iterations), acc)
+	plt.show()
+	
+	a = np.dot(w[:,1:],test_x.T)+w[:,0].reshape(-1,1)
+	y_h = a.argmax(axis=0)
+	missclassified = 1*np.not_equal(y_h,test_y)
+	acctest = 1-np.sum(missclassified)/float(len(missclassified))
+	print 'Accuracy on test set: {0}%'.format(acctest*100)
 
 def custom_euclidean(x_means, train_x):
     dist_points = np.zeros((10,len(train_x)))
@@ -135,11 +167,9 @@ def calc_ratio(number):
       temp = ones_number[i,:].reshape(16,16)
       number_ratio[i] = np.sum(temp[:,:8])/float(np.sum(temp[:,8:]))
     return number_ratio
-   
-def g_step(X):
-	X[X >= 0] = 1
-	X[X < 0] = -1
-	return X 
+    
+def sigmoid(X):
+	return 1/(1+np.exp(-X))
 
 def main():
 	train_x = np.genfromtxt('data/train_in.csv', delimiter=',')
@@ -150,27 +180,30 @@ def main():
 
 	#task1_2(train_x, train_y, test_x, test_y)
 	#task3(train_x, train_y, test_x, test_y)
-
-	np.random.seed(42)
-	w = np.random.randn(10,257)*0.01
-	w[:,0] = 1
-	learning_rate = 0.05
-	g = np.zeros((len(train_x),10))
+	#task4(train_x, train_y, test_x, test_y)
 	
-	y_true = np.full((10,len(train_y)), fill_value=-1) 
-	for i in range(len(train_y)):
-		y_true[int(train_y[i]),i]=1
-
-	iterations = 0
-	while iterations < 10:
-		a = np.dot(w[:,1:],train_x.T)+w[:,0].reshape(-1,1)
-		g = g_step(a)
-		diff = np.subtract(y_true,g)
-		w[:,1:] += learning_rate*np.dot(y_true[:,diff.nonzero()[1][0]].reshape(-1,1),train_x[diff.nonzero()[1][0],:].reshape(1,-1))
-		iterations += 1
+	w = np.random.randn(3,3)*0.01
+	def xor_net(x1,x2,weights):
+		x = np.array([1, x1, x2])
+		a1 = sigmoid(np.dot(weights[0],x))
+		a2 = sigmoid(np.dot(weights[1],x))
+		a = np.array([1, a1, a2])
+		return sigmoid(np.dot(weights[2],a))
 	
-	accuracy = 1-np.sum(1*(diff.sum(axis=0)>0))/float(len(train_x))
-	print 'Accuracy after {1} iterations: {0}%'.format(accuracy*100,iterations)
-
+	def mse(weights):
+		x = np.array([[0,0],[0,1],[1,0],[1,1]])
+		y = np.array([0,1,1,0])
+		mse = 0
+		for i in range(4):
+			xor = xor_net(x[0,i],x[1,i],weights)	
+			mse += (y-xor)**2
+		return mse
+	
+	def grdmse(weights):
+		err = 10**-3
+		grads = np.zeros((3,3))
+		for i in range():
+			grads = xor_net()
+		
 if __name__ == '__main__':
     main()
