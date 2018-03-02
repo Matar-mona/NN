@@ -182,28 +182,54 @@ def main():
 	#task3(train_x, train_y, test_x, test_y)
 	#task4(train_x, train_y, test_x, test_y)
 	
-	w = np.random.randn(3,3)*0.01
 	def xor_net(x1,x2,weights):
 		x = np.array([1, x1, x2])
-		a1 = sigmoid(np.dot(weights[0],x))
-		a2 = sigmoid(np.dot(weights[1],x))
+		a1 = sigmoid(np.dot(weights[0,:],x))
+		a2 = sigmoid(np.dot(weights[1,:],x))
 		a = np.array([1, a1, a2])
-		return sigmoid(np.dot(weights[2],a))
+		return sigmoid(np.dot(weights[2,:],a))
 	
 	def mse(weights):
 		x = np.array([[0,0],[0,1],[1,0],[1,1]])
 		y = np.array([0,1,1,0])
 		mse = 0
 		for i in range(4):
-			xor = xor_net(x[0,i],x[1,i],weights)	
-			mse += (y-xor)**2
+			xor = xor_net(x[i,0],x[i,1],weights)
+			mse += (xor-y[i])**2
 		return mse
 	
 	def grdmse(weights):
-		err = 10**-3
+		err = 0.001
 		grads = np.zeros((3,3))
-		for i in range():
-			grads = xor_net()
+		weights_err = np.copy(weights)
+		for i in range(3):
+			for j in range(3):
+				weights_err[i,j] += err
+				grads[i,j] = (mse(weights_err)-mse(weights))/err
+				weights_err[i,j] -= err
+		return grads
+			
+	w = np.random.randn(3,3)*0.5
+	learning_rate = 0.1
+	
+	error = 1
+	iterations = 0
+	mses = []                                     
+	while error > 0.01:
+		w -= learning_rate*grdmse(w)
+		error = mse(w)
+		mses.append(error)
+		iterations += 1
+		if iterations > 10000:
+			break 
+	
+	x = np.array([[0,0],[0,1],[1,0],[1,1]])
+	for i in range(4):
+		print xor_net(x[i,0],x[i,1],w)
+	print 'Mean squared error after {0} iterations: {1}'.format(iterations,error)
+	
+	plt.plot(np.arange(iterations),mses)
+	plt.show()
 		
 if __name__ == '__main__':
     main()
