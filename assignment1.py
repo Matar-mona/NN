@@ -6,6 +6,32 @@ import itertools
 import numpy as np
 import matplotlib.pyplot as plt
 
+def custom_euclidean(x_means, train_x):
+    dist_points = np.zeros((10,len(train_x)))
+
+    for j in range(len(train_x)):
+        for i in range(10):
+            dist_points[i,j] = np.linalg.norm(train_x[j,:] - x_means[:,i])
+    return dist_points
+    
+def calc_ratio(number):
+    number_ratio = np.zeros(len(number))
+    ones_number = 1*(number==1)
+    for i in range(len(number)):
+      temp = ones_number[i,:].reshape(16,16)
+      number_ratio[i] = np.sum(temp[:,:8])/float(np.sum(temp[:,8:]))
+    return number_ratio
+    
+def mean_ones(number):
+	ones_number = 1*(number==1)
+	return ones_number.sum(axis=1)
+    
+def sigmoid(X):
+	return 1/(1+np.exp(-X))
+	
+def relu(X):
+	return np.maximum(X,0)
+
 def plot_confusion_matrix(cm, classes, ax,
                           normalize=False,
                           title='Confusion matrix',
@@ -151,43 +177,15 @@ def task4(train_x, train_y, test_x, test_y):
 	missclassified = 1*np.not_equal(y_h,test_y)
 	acctest = 1-np.sum(missclassified)/float(len(missclassified))
 	print 'Accuracy on test set: {0}%'.format(acctest*100)
-
-def custom_euclidean(x_means, train_x):
-    dist_points = np.zeros((10,len(train_x)))
-
-    for j in range(len(train_x)):
-        for i in range(10):
-            dist_points[i,j] = np.linalg.norm(train_x[j,:] - x_means[:,i])
-    return dist_points
-    
-def calc_ratio(number):
-    number_ratio = np.zeros(len(number))
-    ones_number = 1*(number==1)
-    for i in range(len(number)):
-      temp = ones_number[i,:].reshape(16,16)
-      number_ratio[i] = np.sum(temp[:,:8])/float(np.sum(temp[:,8:]))
-    return number_ratio
-    
-def sigmoid(X):
-	return 1/(1+np.exp(-X))
-
-def main():
-	train_x = np.genfromtxt('data/train_in.csv', delimiter=',')
-	train_y = np.genfromtxt('data/train_out.csv', delimiter=',')
-
-	test_x = np.genfromtxt('data/test_in.csv', delimiter=',')
-	test_y = np.genfromtxt('data/test_out.csv', delimiter=',')
-
-	#task1_2(train_x, train_y, test_x, test_y)
-	#task3(train_x, train_y, test_x, test_y)
-	#task4(train_x, train_y, test_x, test_y)
+	
+def task5(train_x, train_y, test_x, test_y):
 	
 	def xor_net(x1,x2,weights):
 		x = np.array([1, x1, x2])
-		a1 = sigmoid(np.dot(weights[0,:],x))
-		a2 = sigmoid(np.dot(weights[1,:],x))
+		a1 = np.tanh(np.dot(weights[0,:],x))
+		a2 = np.tanh(np.dot(weights[1,:],x))
 		a = np.array([1, a1, a2])
-		return sigmoid(np.dot(weights[2,:],a))
+		return np.tanh(np.dot(weights[2,:],a))
 	
 	def mse(weights):
 		x = np.array([[0,0],[0,1],[1,0],[1,1]])
@@ -226,6 +224,72 @@ def main():
 	x = np.array([[0,0],[0,1],[1,0],[1,1]])
 	for i in range(4):
 		print xor_net(x[i,0],x[i,1],w)
+	print 'Mean squared error after {0} iterations: {1}'.format(iterations,error)
+	
+	plt.plot(np.arange(iterations),mses)
+	plt.show()
+
+def main():
+	train_x = np.genfromtxt('data/train_in.csv', delimiter=',')
+	train_y = np.genfromtxt('data/train_out.csv', delimiter=',')
+
+	test_x = np.genfromtxt('data/test_in.csv', delimiter=',')
+	test_y = np.genfromtxt('data/test_out.csv', delimiter=',')
+
+	#task1_2(train_x, train_y, test_x, test_y)
+	#task3(train_x, train_y, test_x, test_y)
+	#task4(train_x, train_y, test_x, test_y)
+	#task5(train_x, train_y, test_x, test_y)
+	
+	def mnist_net(X, weights1, weights2):
+		a1 = np.tanh(np.dot(weights1[:,1:],X.T)+weights1[:,0].reshape(-1,1))
+		a2 = np.tanh(np.dot(weights2[:,1:],a1)+weights2[:,0].reshape(-1,1))
+		return a2.argmax(axis=0)
+	
+	def mse(weights1,weights2):
+		mse = 0
+		y_hat = mnist_net(train_x,weights1,weights2)
+		mse = np.sum((y_hat-train_y)**2)
+		return mse
+	
+	def grdmse(weights1, weights2):
+		err = 0.001
+		grads1 = np.zeros((30,257))
+		grads2 = np.zeros((10,31))
+		weights_err1 = np.copy(weights1)
+		weights_err2 = np.copy(weights2)
+		for i in range(10):
+			for j in range(31):
+				weights_err2[i,j] += err
+				grads2[i,j] = (mse(weights1,weights_err2)-mse(weights1,weights2))/err
+				weights_err2[i,j] -= err
+		for i in range(30):
+			for j in range(257):
+				weights_err1[i,j] += err
+				grads1[i,j] = (mse(weights_err1,weights2)-mse(weights1,weights2))/err
+				weights_err1[i,j] -= err
+		return grads1, grads2
+			
+	w1 = np.random.randn(30,257)*0.5
+	w1[:,0] = 1
+	w2 = np.random.randn(10,31)*0.5
+	w2[:,0] = 1
+	learning_rate = 0.1
+	
+	error = 1
+	iterations = 0
+	mses = []                                     
+	while error > 0.01:
+		print iterations
+		grads1, grads2 = grdmse(w1,w2)
+		w1 -= learning_rate*grads1
+		w2 -= learning_rate*grads2
+		error = mse(w1,w2)
+		mses.append(error)
+		iterations += 1
+		if iterations > 10:
+			break 
+
 	print 'Mean squared error after {0} iterations: {1}'.format(iterations,error)
 	
 	plt.plot(np.arange(iterations),mses)

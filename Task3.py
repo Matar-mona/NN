@@ -4,13 +4,22 @@ Created on Wed Mar  7 10:59:46 2018
 
 @author: mmata
 """
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn import metrics
+
+train_x = np.genfromtxt('data/train_in.csv', delimiter=',')
+train_y = np.genfromtxt('data/train_out.csv', delimiter=',')
+
+test_x = np.genfromtxt('data/test_in.csv', delimiter=',')
+test_y = np.genfromtxt('data/test_out.csv', delimiter=',')
 
 pixel_freq = np.ones( (16*16,10), dtype=int )
-fives_train = train_x[train_y == 1]
-three_train = train_x[train_y == 9]
+fives_train = train_x[train_y == 5]
+three_train = train_x[train_y == 3]
 
-fives = test_x[test_y == 1]
-threes = test_x[test_y == 9]
+fives = test_x[test_y == 5]
+threes = test_x[test_y == 3]
 
 pixel_freq_5 = np.ones(16*16)
 pixel_freq_3 = np.zeros(16*16)
@@ -22,8 +31,13 @@ number_3 = len(three_train)
 for i in range(len(fives_train)):
     pixel_freq_5[i] = np.count_nonzero(fives_train[i,:] == 1)+1
    
+print pixel_freq_5
 for i in range(len(three_train)):
     pixel_freq_3[i] = np.count_nonzero(three_train[i,:] == 1)+1
+
+n_five, bins_five, patches = plt.hist(pixel_freq_5, bins=20, alpha=0.5, normed=True)
+n_three, bins_three, patches = plt.hist(pixel_freq_3, bins=20, alpha=0.5, normed=True)
+plt.show()
 
 five_three =np.concatenate((fives, threes), axis=0)
 # prior C1  num. of samples in C1 row / number of all samples
@@ -63,9 +77,9 @@ for i in range(test_sample):
     #lp_3_sum = sum(lp_3)
     #print(lp_5)
     #if  lp_5 < lp_3:
-    plt.matshow(five_three[i].reshape(16,16))
-    plt.colorbar()
-    plt.show()
+    #plt.matshow(five_three[i].reshape(16,16))
+    #plt.colorbar()
+    #plt.show()
     #print(lp_5, lp_3)
     if lp_5 > lp_3:
         print('1')
