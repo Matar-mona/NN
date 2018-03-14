@@ -1,18 +1,6 @@
 from matplotlib.ticker import MaxNLocator
 import matplotlib.pyplot as plt
 import numpy as np
-import cPickle
-
-def pickle_to_file(data, fname):
-	fh = open(fname, 'w') 
-	cPickle.dump(data, fh) 
-	fh.close() 
-
-def pickle_from_file(fname): 
-    fh = open(fname, 'r') 
-    data = cPickle.load(fh) 
-    fh.close() 
-    return data
 
 def sigmoid(X):
 	return 1/(1+np.exp(-X))
@@ -21,6 +9,9 @@ def relu(X):
 	return np.maximum(X,0)
 
 def xor_net(x1,x2,weights,activation):
+	'''
+	Return the prediction of the network given an activation function
+	'''
 	x = np.array([1, x1, x2])
 	if activation == 'sigmoid':
 		a1 = sigmoid(np.dot(weights[0,:],x))
@@ -39,6 +30,9 @@ def xor_net(x1,x2,weights,activation):
 		return relu(np.dot(weights[2,:],a))
 
 def mse(weights,activation):
+	'''
+	Compute the mean squared error of given weights
+	'''
 	x = np.array([[0,0],[0,1],[1,0],[1,1]])
 	y = np.array([0,1,1,0])
 	mse = 0
@@ -48,6 +42,9 @@ def mse(weights,activation):
 	return mse/4.
 
 def grdmse(weights,activation):
+	'''
+	Compute the gradient of all the weights
+	'''
 	err = 0.001
 	grads = np.zeros((3,3))
 	weights_err = np.copy(weights)
@@ -60,13 +57,17 @@ def grdmse(weights,activation):
 	return grads
 
 def train_xor_net(train_x, train_y, learning_rate, activation='sigmoid'):
+	'''
+	Train the neural network on XOR data with a given learning rate and activation function
+	''' 
 	np.random.seed(42)
 	w = np.random.randn(3,3)*0.5
 
 	iterations = 0
 	n_missclassified = 4
 	mses = []
-	n_correct = []                                     
+	n_correct = []
+	#iterate until there no cases missclassified or until 10000 iterations are reached                                     
 	while n_missclassified > 0:
 		n_missclassified = 0
 		w -= learning_rate*grdmse(w, activation)
@@ -90,6 +91,7 @@ def main():
 	
 	rates = np.linspace(0.01,1,50)
 
+	#test converge for several activation functions and learning rates
 	for activation in ['sigmoid','tanh','relu']:
 		print 'Testing convergence for {} activation'.format(activation)
 		iters = []
@@ -97,7 +99,6 @@ def main():
 			iterations, mses, n_correct = train_xor_net(train_x,train_y,learning_rate,activation)
 			iters.append(iterations)
 		plt.plot(rates,iters,label=activation)
-		pickle_to_file(iters,'{}_iter.pkl'.format(activation))
 	plt.xlabel('Learning Rate')
 	plt.ylabel('Iterations to convergence')	
 	plt.legend()

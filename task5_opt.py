@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from astroML.decorators import pickle_results
 
 def sigmoid(X):
 	return 1/(1+np.exp(-X))
@@ -8,8 +7,10 @@ def sigmoid(X):
 def relu(X):
 	return np.maximum(X,0)
 
-@pickle_results('mnist_weights.pkl')
 def train_mnist_net(train_x, train_y, learning_rate=0.01):
+	'''
+	Train a 2-layer neural network on the MNIST data set
+	'''
 	w1 = np.random.randn(30,257)*0.5
 	w1[:,0] = 1
 	w2 = np.random.randn(10,31)*0.5
@@ -20,18 +21,28 @@ def train_mnist_net(train_x, train_y, learning_rate=0.01):
 	for i in range(len(train_y)):
 		Y_train[int(train_y[i]),i] = 1 
 
+	def mnist_net(X, weights1, weights2):
+		'''
+		Return the prediction of the network
+		'''
+		a1 = sigmoid(np.dot(weights1[:,1:],X.T)+weights1[:,0].reshape(-1,1))
+		a2 = sigmoid(np.dot(weights2[:,1:],a1)+weights2[:,0].reshape(-1,1))
+		return a2, a2.argmax(axis=0)
+
 	def mse(weights1,weights2):
+		'''
+		Compute the mean squared error of the weights
+		'''
 		mse = 0
 		A2, y_hat = mnist_net(train_x,weights1,weights2)
 		mse = np.sum((A2-Y_train)**2)
 		return mse/float(len(train_y))
 
-	def mnist_net(X, weights1, weights2):
-		a1 = sigmoid(np.dot(weights1[:,1:],X.T)+weights1[:,0].reshape(-1,1))
-		a2 = sigmoid(np.dot(weights2[:,1:],a1)+weights2[:,0].reshape(-1,1))
-		return a2, a2.argmax(axis=0)
 	
 	def grdmse(weights1, weights2):
+		'''
+		Compute the gradient of the weights
+		'''
 		err = 0.001
 		grads1 = np.zeros((30,257))
 		grads2 = np.zeros((10,31))
@@ -50,15 +61,18 @@ def train_mnist_net(train_x, train_y, learning_rate=0.01):
 				weights_err1[i,j] -= err
 		return grads1, grads2
 	
-	error = 1
+	missclass = 10
 	iterations = 0
-	mses = []                                     
-	while error > 0.01:
+	mses = []
+	#iterate until there are no cases missclassified or 1000 iterations are reached                                 
+	while missclass > 0:
 		grads1, grads2 = grdmse(w1,w2)
 		w1 -= learning_rate*grads1
 		w2 -= learning_rate*grads2
 		error = mse(w1,w2)
 		mses.append(error)
+		A2, y_h = mnist_net(train_x,w1,w2)
+		missclass = np.sum(1*np.not_equal(y_h,train_y))
 		iterations += 1
 		print 'Mean squared error at iteration {0}: {1}'.format(iterations,error)
 		if iterations > 1000:
@@ -83,6 +97,7 @@ def main():
 
 	w1, w2 = train_mnist_net(train_x, train_y, learning_rate=5)
 
+	#predict values for the test set
 	a1 = sigmoid(np.dot(w1[:,1:],test_x.T)+w1[:,0].reshape(-1,1))
 	a2 = sigmoid(np.dot(w2[:,1:],a1)+w2[:,0].reshape(-1,1))
 	y_h = a2.argmax(axis=0)

@@ -2,6 +2,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def train_multiclass_perceptron(train_x, train_y, learning_rate=0.01):
+	'''
+	Train a multiclass perceptron given a learning rate
+	'''
 	w = np.random.randn(10,257)*0.01
 	w[:,0] = 1
 
@@ -9,10 +12,12 @@ def train_multiclass_perceptron(train_x, train_y, learning_rate=0.01):
 	iterations = 0
 	accuracy = 0
 	acc = []
+	#iterate until there are no cases missclassified or 10000 iterations are reached
 	while missclass > 0:
 		a = np.dot(w[:,1:],train_x.T)+w[:,0].reshape(-1,1)
 		y_h = a.argmax(axis=0)
 		missclassified = 1*np.not_equal(y_h,train_y)
+		#update weights
 		for i in range(len(missclassified)):
 			w[int(train_y[i]),1:] += learning_rate*missclassified[i]*train_x[i,:]
 			w[int(y_h[i]),1:] -= learning_rate*missclassified[i]*train_x[i,:]
