@@ -20,4 +20,4 @@ Most missclassified digits: 9 with accuracy 97.32%
                             7 with accuracy 98.05% 
 Clearly 8 and 9 are consistently appear in the top 3. Accuracy seems to be lower with MSE as loss function. Training takes 20 minutes, so measuring how randomness influences the results is hard.
 
-Permuting the mnist dataset will probably not influence the result.
+Permuting the mnist dataset does not influence the result significantly

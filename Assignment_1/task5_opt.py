@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+from astroML.decorators import pickle_results
 
 def sigmoid(X):
 	return 1/(1+np.exp(-X))
@@ -15,7 +16,7 @@ def train_mnist_net(train_x, train_y, learning_rate=0.01):
 	w1[:,0] = 1
 	w2 = np.random.randn(10,31)*0.5
 	w2[:,0] = 1
-	learning_rate = 5
+	learning_rate = 10
 
 	Y_train = np.zeros((10,len(train_y)))
 	for i in range(len(train_y)):
