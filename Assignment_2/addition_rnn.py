@@ -175,7 +175,8 @@ for iteration in range(1, 200):
     model.fit(x_train, y_train,
               batch_size=BATCH_SIZE,
               epochs=1,
-              validation_data=(x_val, y_val))
+              validation_data=(x_val, y_val),
+              verbose=2)
     # Select 10 samples from the validation set at random so we can visualize
     # errors.
     for i in range(10):
