@@ -70,14 +70,14 @@ class colors:
 # Parameters for the model and dataset.
 TRAINING_SIZE = 50000
 DIGITS = 3
-REVERSE = True
+REVERSE = False
 
 # Maximum length of input is 'int + int' (e.g., '345+678'). Maximum length of
 # int is DIGITS.
 MAXLEN = DIGITS + 1 + DIGITS
 
 # All the numbers, plus sign and space for padding.
-chars = '0123456789+ '
+chars = '0123456789abcdef+ '
 ctable = CharacterTable(chars)
 
 questions = []
@@ -95,9 +95,9 @@ while len(questions) < TRAINING_SIZE:
         continue
     seen.add(key)
     # Pad the data with spaces such that it is always MAXLEN.
-    q = '{}+{}'.format(a,b)
+    q = format(a,'x')+'+'+format(b,'x')
     query = q + ' ' * (MAXLEN - len(q))
-    ans = str(a + b)
+    ans = format(a + b,'x')
     # Answers can be of maximum size DIGITS + 1.
     ans += ' ' * (DIGITS + 1 - len(ans))
     if REVERSE:
@@ -204,4 +204,4 @@ print(guess)
 plt.plot(np.arange(200),trainacc,'k--',label='Train accuracy')
 plt.plot(np.arange(200),valacc,'k',label='Validation accuracy')
 plt.legend()
-plt.savefig('accuracies.png', dpi=300)
+plt.savefig('accuracies_hex.png', dpi=300)
