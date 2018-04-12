@@ -1,0 +1,179 @@
+lstm_seq2seq:
+Input sentence: Go.
+Decoded sentence: Va !
+
+Input sentence: Run!
+Decoded sentence: Courez !
+
+Input sentence: Wow!
+Decoded sentence: Ça alors !
+
+Input sentence: Fire!
+Decoded sentence: Au feu !
+
+Input sentence: Help!
+Decoded sentence: À l'aide !
+
+Input sentence: Jump.
+Decoded sentence: Saute.
+
+Input sentence: Stop!
+Decoded sentence: Cellez la poère !
+
+Input sentence: Wait!
+Decoded sentence: Attends !
+
+Input sentence: Go on.
+Decoded sentence: Poursuivez.
+
+Input sentence: I see.
+Decoded sentence: Je comprends.
+
+Input sentence: I try.
+Decoded sentence: J'essaye.
+
+Input sentence: I won!
+Decoded sentence: Je l'ai emporté !
+
+Input sentence: Oh no!
+Decoded sentence: Oh non !
+
+Input sentence: Attack!
+Decoded sentence: Attaque !
+
+Input sentence: Attack!
+Decoded sentence: Attaque !
+
+Input sentence: Cheers!
+Decoded sentence: Santé !
+
+Input sentence: Get up.
+Decoded sentence: Lève-toi.
+
+Input sentence: Go now.
+Decoded sentence: Vas-y maintenant.
+
+Input sentence: Got it!
+Decoded sentence: Compris !
+
+Input sentence: Got it?
+Decoded sentence: Compris ?
+
+Input sentence: Hop in.
+Decoded sentence: Montez.
+
+Input sentence: Hug me.
+Decoded sentence: Sauvez vous à voir !
+
+Input sentence: I fell.
+Decoded sentence: Je suis tombé.
+
+Input sentence: I know.
+Decoded sentence: Je suis devenu occupé.
+
+Input sentence: I left.
+Decoded sentence: Je suis partie.
+
+Input sentence: I lost.
+Decoded sentence: J'ai perdu.
+
+Input sentence: I'm 19.
+Decoded sentence: J'ai dressonné.
+
+Input sentence: I'm OK.
+Decoded sentence: Je suis le plus vieux.
+
+Input sentence: Listen.
+Decoded sentence: Écoutez !
+
+Input sentence: No way!
+Decoded sentence: C'est pas possible !
+
+Input sentence: Really?
+Decoded sentence: Vraiment ?
+
+Input sentence: Thanks.
+Decoded sentence: Merci !
+
+Input sentence: We try.
+Decoded sentence: On essaye.
+
+Input sentence: We won.
+Decoded sentence: Nous l'avons emporté.
+
+Input sentence: Ask Tom.
+Decoded sentence: Demande à Tom.
+
+Input sentence: Awesome!
+Decoded sentence: Fantestou, je vous prie.
+
+Input sentence: Be calm.
+Decoded sentence: Soyez calmes !
+
+Input sentence: Be cool.
+Decoded sentence: Soyez confiant !
+
+Input sentence: Be fair.
+Decoded sentence: Sois équitable !
+
+Input sentence: Be kind.
+Decoded sentence: Sois gentil.
+
+Input sentence: Be nice.
+Decoded sentence: Soyez gentille !
+
+Input sentence: Beat it.
+Decoded sentence: Dégage !
+
+Input sentence: Call me.
+Decoded sentence: Appelle-moi !
+
+Input sentence: Call us.
+Decoded sentence: Appelez-nous !
+
+Input sentence: Come in.
+Decoded sentence: Entrez !
+
+Input sentence: Come on!
+Decoded sentence: Allez !
+
+Input sentence: Drop it!
+Decoded sentence: Laissez tomber !
+
+lstm_text_generation:
+----- Generating text after Epoch: 59
+----- diversity: 0.2
+----- Generating with seed: "also a france of pessimism,
+schopenhauer"
+also a france of pessimism,
+schopenhauer and standard in the standard of the standard and standard and starnis of the standard of the standard of the standard of the state of the standard of the standard of the standard the standard to the standard the standard to the standard of the conscience the traditional standard to the state and subjection of the standards of the standard of the souls of the standard and state of the standards an
+----- diversity: 0.5
+----- Generating with seed: "also a france of pessimism,
+schopenhauer"
+also a france of pessimism,
+schopenhauer with the most suitable place of the commentions of the impersons and souls of women with the spirit is a conscient refined in the powerful. the state of man and even and believe the utility, and additional book the the souls of the regard them in the heading instinct and all the conscience with the world believe to be an appropriaal standfren--when the conscience which a sons to the most strange 
+----- diversity: 1.0
+----- Generating with seed: "also a france of pessimism,
+schopenhauer"
+also a france of pessimism,
+schopenhauers of the cost of slittrately eudict of
+inderences nature the conscience and magnificent
+indeeval. good-respect in the noake--it  cagening the
+fact," itself, of manvice, undervens to living himself false tou. even in others of the instinct of longing
+hi hongs would speaks: finally bevole than the good. improped the rung absthuperaceing, all the
+y skin--make it is stands's whole reficence,
+lengthtly
+----- diversity: 1.2
+----- Generating with seed: "also a france of pessimism,
+schopenhauer"
+also a france of pessimism,
+schopenhauer, fardable's mostd
+whereby, 
+than soliviaal whatever of a stappher
+this expressing, how fashiplong aroutly sup regards those experisent to knowledges; like in characteristics
+is ohcondy the most bomes,
+even ehe who
+keeps women
+numbers
+from evidence to wat
+things aftery loftstancely the distrif from scientifed now ammonst think a rich," even in compthour to will for thinker)--but for-; bitence"--pr
