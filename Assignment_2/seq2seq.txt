@@ -1,0 +1,200 @@
+Input sentence:Hi.
+ Decoded sentence:Hoi.
+Input sentence:Run!
+ Decoded sentence:Ren!
+Input sentence:Who?
+ Decoded sentence:Wie?
+Input sentence:Wow!
+ Decoded sentence:Was je moe?
+Input sentence:Fire!
+ Decoded sentence:Haar de ktefier!
+Input sentence:Fire!
+ Decoded sentence:Haar de ktefier!
+Input sentence:Help!
+ Decoded sentence:Help me.
+Input sentence:Jump.
+ Decoded sentence:Kom zien!
+Input sentence:Stop!
+ Decoded sentence:Straag.
+Input sentence:Stop!
+ Decoded sentence:Straag.
+Input sentence:Hello!
+ Decoded sentence:Hier is mijn slaut.
+Input sentence:Hello!
+ Decoded sentence:Hier is mijn slaut.
+Input sentence:Hello!
+ Decoded sentence:Hier is mijn slaut.
+Input sentence:I try.
+ Decoded sentence:Ik probeer het.
+Input sentence:I won!
+ Decoded sentence:Ik heb gewonnen!
+Input sentence:Oh no!
+ Decoded sentence:Er is geen haas.
+Input sentence:Relax.
+ Decoded sentence:Rustig.
+Input sentence:Attack!
+ Decoded sentence:Racht ergen aastuderden.
+Input sentence:Cheers!
+ Decoded sentence:Zet hem on.
+Input sentence:Cheers!
+ Decoded sentence:Zet hem on.
+Input sentence:Freeze!
+ Decoded sentence:Geen beweging!
+Input sentence:Got it!
+ Decoded sentence:Ga rechtoffen.
+Input sentence:Got it!
+ Decoded sentence:Ga rechtoffen.
+Input sentence:I know.
+ Decoded sentence:Ik ken hem.
+Input sentence:I lied.
+ Decoded sentence:Ik hou van revens.
+Input sentence:I quit.
+ Decoded sentence:Ik stap op.
+Input sentence:I quit.
+ Decoded sentence:Ik stap op.
+Input sentence:I'm 19.
+ Decoded sentence:Ik ben vermeten.
+Input sentence:Listen.
+ Decoded sentence:Luister.
+Input sentence:No way!
+ Decoded sentence:Niet waar!
+Input sentence:No way!
+ Decoded sentence:Niet waar!
+Input sentence:Really?
+ Decoded sentence:Echt waar?
+Input sentence:Really?
+ Decoded sentence:Echt waar?
+Input sentence:Thanks.
+ Decoded sentence:Bedankt!
+Input sentence:Thanks.
+ Decoded sentence:Bedankt!
+Input sentence:Thanks.
+ Decoded sentence:Bedankt!
+Input sentence:Why me?
+ Decoded sentence:Waarom ik?
+Input sentence:Awesome!
+ Decoded sentence:Geweldig!
+Input sentence:Awesome!
+ Decoded sentence:Geweldig!
+Input sentence:Awesome!
+ Decoded sentence:Geweldig!
+Input sentence:Awesome!
+ Decoded sentence:Geweldig!
+Input sentence:Call me.
+ Decoded sentence:Bel me.
+Input sentence:Call me.
+ Decoded sentence:Bel me.
+Input sentence:Come in.
+ Decoded sentence:Kom zien!
+Input sentence:Come in.
+ Decoded sentence:Kom zien!
+Input sentence:Come on!
+ Decoded sentence:Kom zien!
+Input sentence:Get out!
+ Decoded sentence:Verbleeft het!
+Input sentence:Go away!
+ Decoded sentence:Ga weg!
+Input sentence:Go away!
+ Decoded sentence:Ga weg!
+Input sentence:Go away.
+ Decoded sentence:Ga weg!
+Input sentence:Goodbye!
+ Decoded sentence:Goed me hoe.
+Input sentence:Goodbye!
+ Decoded sentence:Goed me hoe.
+Input sentence:He runs.
+ Decoded sentence:Hij ziet er gelukkig uit.
+Input sentence:Help me!
+ Decoded sentence:Help me.
+Input sentence:Help me.
+ Decoded sentence:Help me.
+Input sentence:I agree.
+ Decoded sentence:Ik heb het opgemerkt.
+Input sentence:I agree.
+ Decoded sentence:Ik heb het opgemerkt.
+Input sentence:I'm Tom.
+ Decoded sentence:Ik ben ziek.
+Input sentence:I'm fat.
+ Decoded sentence:Ik ben hier.
+Input sentence:I'm ill.
+ Decoded sentence:Ik ben ziek.
+Input sentence:I'm sad.
+ Decoded sentence:Ik ben ziek.
+Input sentence:It's me!
+ Decoded sentence:Het is een vloek.
+Input sentence:It's me.
+ Decoded sentence:Het is een voor!
+Input sentence:Join us.
+ Decoded sentence:Kom maar meedoen.
+Input sentence:Join us.
+ Decoded sentence:Kom maar meedoen.
+Input sentence:Join us.
+ Decoded sentence:Kom maar meedoen.
+Input sentence:Join us.
+ Decoded sentence:Kom maar meedoen.
+Input sentence:Join us.
+ Decoded sentence:Kom maar meedoen.
+Input sentence:Keep it.
+ Decoded sentence:Haal de cemt.
+Input sentence:See you!
+ Decoded sentence:Tot weerziens!
+Input sentence:Shut up!
+ Decoded sentence:Zwijg!
+Input sentence:Stop it.
+ Decoded sentence:Stop met roepen!
+Input sentence:Take it.
+ Decoded sentence:Neem het.
+Input sentence:Tell me.
+ Decoded sentence:Zeg het me.
+Input sentence:Wait up.
+ Decoded sentence:Wacht eventjes.
+Input sentence:Wake up!
+ Decoded sentence:Wordt u vinden!
+Input sentence:We lost.
+ Decoded sentence:We hebben het erkaar mugerijk.
+Input sentence:Welcome.
+ Decoded sentence:Welkom!
+Input sentence:Who won?
+ Decoded sentence:Wie heeft gewansopen?
+Input sentence:Who won?
+ Decoded sentence:Wie heeft gewansopen?
+Input sentence:Why not?
+ Decoded sentence:Waarom is hij?
+Input sentence:You won.
+ Decoded sentence:Jij mag me veruwer.
+Input sentence:Am I fat?
+ Decoded sentence:Heb ik het mos?
+Input sentence:Be quiet.
+ Decoded sentence:Wees stil.
+Input sentence:Cheer up!
+ Decoded sentence:Probeer het mo.
+Input sentence:Get lost!
+ Decoded sentence:Verbleeft ge!
+Input sentence:Good job!
+ Decoded sentence:Goed werk!
+Input sentence:Good job!
+ Decoded sentence:Goed werk!
+Input sentence:Grab Tom.
+ Decoded sentence:Ge zilt.
+Input sentence:Grab him.
+ Decoded sentence:Grijp hem.
+Input sentence:Have fun.
+ Decoded sentence:Veel plezier!
+Input sentence:Have fun.
+ Decoded sentence:Veel plezier!
+Input sentence:Hurry up.
+ Decoded sentence:Gaat het horgen.
+Input sentence:Hurry up.
+ Decoded sentence:Gaat het horgen.
+Input sentence:I am fat.
+ Decoded sentence:Ik ben hier.
+Input sentence:I'll pay.
+ Decoded sentence:Ik zal het hem vragen.
+Input sentence:I'm back.
+ Decoded sentence:Ik ben ziek.
+Input sentence:I'm busy.
+ Decoded sentence:Ik ben ziek.
+Input sentence:I'm free!
+ Decoded sentence:Ik ben verbass.
+Input sentence:I'm free.
+ Decoded sentence:Ik ben hier.

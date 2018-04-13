@@ -211,6 +211,8 @@ def decode_sequence(input_seq):
 
     return decoded_sentence
 
+text_file = open("seq2seq", "w")
+
 
 for seq_index in range(100):
     # Take one sequence (part of the training set)
@@ -219,4 +221,9 @@ for seq_index in range(100):
     decoded_sentence = decode_sequence(input_seq)
     print('-')
     print('Input sentence:', input_texts[seq_index])
-print('Decoded sentence:', decoded_sentence)
+    print('Decoded sentence:', decoded_sentence)
+    text_file.write('Input sentence:')
+    text_file.write(input_texts[seq_index])
+    text_file.write('\n Decoded sentence:')
+    text_file.write(decoded_sentence)
+text_file.close()    

@@ -1,0 +1,23 @@
+mnist_mlp:
+Acc with categorical cross entropy 98%
+Most missclassified digits: 8 with accuracy 94.15% (4 second time)
+                            4 with accuracy 97.86% (3 second time)
+                            9 with accuracy 98.02% (5 second time)
+Acc with mean squared error: 98% 
+Most missclassified digits: 5 with accuracy 96.19% (9 second time)
+                            8 with accuracy 96.82% (5 second time)
+                            9 with accuracy 97.20% (8 second time)
+Results are inconsistent, top 3 missclassified digits changes every time but some of the digits appear more often. Accuracy is consistently 98%-98.5%.
+
+mnist_cnn:
+Acc with categorical cross entropy 99%
+Most missclassified digits: 8 with accuracy 98.36% 
+                            6 with accuracy 98.43% 
+                            9 with accuracy 98.51% 
+Acc with mean squared error: 98.5% 
+Most missclassified digits: 9 with accuracy 97.32% 
+                            8 with accuracy 98.05% 
+                            7 with accuracy 98.05% 
+Clearly 8 and 9 are consistently appear in the top 3. Accuracy seems to be lower with MSE as loss function. Training takes 20 minutes, so measuring how randomness influences the results is hard.
+
+Permuting the mnist dataset does not influence the result significantly
