@@ -32,8 +32,8 @@ print(x_train.shape[0], 'train samples')
 print(x_test.shape[0], 'test samples')
 
 permute = np.random.randn(1) 
-x_train -= permute
-x_test -= permute
+x_train *= permute
+x_test *= permute
 
 # convert class vectors to binary class matrices
 y_train = keras.utils.to_categorical(y_train, num_classes)
