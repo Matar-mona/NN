@@ -1,0 +1,2767 @@
+
+(tensorflow) C:\Users\mmata\Desktop\NN>python lstm_text_generation.py
+C:\Users\mmata\Anaconda3\envs\tensorflow\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+total chars: 44
+nb sequences: 128831
+Vectorization...
+Build model...
+Epoch 1/60
+2018-04-18 00:40:01.427378: I T:\src\github\tensorflow\tensorflow\core\platform\cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+128831/128831 [==============================] - 42s 329us/step - loss: 2.0782
+
+----- Generating text after Epoch: 0
+----- diversity: 0.2
+----- Generating with seed: "ion sees herself amid the
+   festive throng, 'the "
+ion sees herself amid the
+   festive throng, 'the started the mose the sulled and she mose of the started him the started that said a mose of the mose of the stomed the stare and the started and the could him him the mosted the stanted hall the stall the mose and halp of the started the stard hearted that soon the stall had tom said that had the stall whate him heart himself he same the stall hearted the stanted that said heart to said the moned
+----- diversity: 0.5
+----- Generating with seed: "ion sees herself amid the
+   festive throng, 'the "
+ion sees herself amid the
+   festive throng, 'the rasted it of tom hard the said it have of the mowness of the momest could the dood hearted and pired halp that if as repped for of the heart well the morined and hall the stome than a said the mected basted that some to head foll hall some boy her stear been and the got and got mame leal for a on't mesterted and haved a aunt of the sauded the whele that dos sould and the said she the dound into an
+----- diversity: 1.0
+----- Generating with seed: "ion sees herself amid the
+   festive throng, 'the "
+ion sees herself amid the
+   festive throng, 'the sarterict wile dreall knowod, but the naclls you lave. then that a thatide" he retieses ofs, him for a mise deem. butonged i mall come ; they wood him that huctesforly, thelly beat of ind alarrentialsed it, huld, othey whascken'ss, huck?"
+
+"wheigobuch you paupe. "-owhat's easpire, litll'ud into the ontel. tom. whese forlt of deated a ornere? the stoold ussemasiliful of
+podriked if helchow inlin hi
+----- diversity: 1.2
+----- Generating with seed: "ion sees herself amid the
+   festive throng, 'the "
+ion sees herself amid the
+   festive throng, 'the neamteor, hulf!"
+
+thlyid reef it e's that fore hook it,
+shat sabis potitione, ther hade mortloban't onle swisesed", winise, himsont's clunte; they sometheresf his nimpely in, is josk silly ound
+it, wea. they's sados
+the luare and you much tume wouldn's thissqulted boh, but sharks, noredurelthise,
+him;,
+ford" workget's turce, and not mant aweul,
+suen stelpan momans, by ftremion-motheres,
+but julfe
+Epoch 2/60
+128831/128831 [==============================] - 42s 325us/step - loss: 1.7554
+
+----- Generating text after Epoch: 1
+----- diversity: 0.2
+----- Generating with seed: "uit chasing, and went down and stirred up the
+cons"
+uit chasing, and went down and stirred up the
+conssaning the was a grow and the was a grawn and the was a way a villaned the was a beat a was a was a whick the was a might and had the was a was a was a prose and the was a was a was a great and the was a grain and the was a most the was a find the was a was a was a find and the was a did the from the was a great and the down the was a great the was a grain and the was a was a good and the was a wa
+----- diversity: 0.5
+----- Generating with seed: "uit chasing, and went down and stirred up the
+cons"
+uit chasing, and went down and stirred up the
+conspanced the world an ther were his here."
+
+"looking the had the boys with the was and the was a a hand a grown and reckon a precution his hand and the just the reck the all he was a streation and drew good the wait of troused his choling and the dowe and the was that was a fingation and of the boys consents and and fromed and it of the world and
+the recking the landing the was a was wan away, litte
+----- diversity: 1.0
+----- Generating with seed: "uit chasing, and went down and stirred up the
+cons"
+uit chasing, and went down and stirred up the
+consslice made about dod
+and parmodingnly tnopang upon begen nohed i mored always could thed mielublenowaventuch, and this little in ear blassed hyce of the lanver . we'll, couse, blory schischonide--main comle, went an yout of wels edverthy thes's
+fur quistions me grawients had peeted from,
+and it a sud!""
+
+faint the musts the way in you was keet grirlest they well
+twhey cand other and nivile end lac
+----- diversity: 1.2
+----- Generating with seed: "uit chasing, and went down and stirred up the
+cons"
+uit chasing, and went down and stirred up the
+consplind; sid the tollads rawerrous and
+thismoniswy yake amo. a moriging they shaspler wass benightxinesstybed."
+the oh eadion rewn therint becky is for tally on that th is a gnoply and bound of withed back it expre!" you, don't's mady stin't lighttuble know."
+
+"hilletears! after swore wart, and neleversly "i knoweted il
+wnopen of it of but tree adms is thatchisachight rethe. "hu'd go a vobod
+lear r
+Epoch 3/60
+128831/128831 [==============================] - 42s 324us/step - loss: 1.6539
+
+----- Generating text after Epoch: 2
+----- diversity: 0.2
+----- Generating with seed: "elieved them of their troubles. then they began to"
+elieved them of their troubles. then they began to the wooked to streak the widow deep think the woods had so her something the woods and something and something the compare and sore what he were to the whook her and the poor the poor the compare the woods and so and the wides were that it was to the wooked the pire of the fear the woods of the poor dead the poor stand and strair of the wooked the poor deep something and whene the wood to the woo
+----- diversity: 0.5
+----- Generating with seed: "elieved them of their troubles. then they began to"
+elieved them of their troubles. then they began to the
+wooking flack a
+chasing to streed to so so a look and a markered to his ways and when it was star she would benied so the whice had been lang to bear stood now drown was for the pool don't she say-read of the worked this seer later the boys to go and days the wood as his steaked the wooks of the fird and one in a compank and so he showly on the boys had sleer of who bark a little later and wh
+----- diversity: 1.0
+----- Generating with seed: "elieved them of their troubles. then they began to"
+elieved them of their troubles. then they began to repedfut veriches in a fine. the whoiled a order last out, it was arough stalk and comisausly dain theugh glais geched" her little, himbern strash letther-cair, injusy at a flower of the grain. tom it is a lanchot you'rl week
+the woydess of then shors boy comwant boys could fapress, and draw
+hand!"
+then then sow
+de took to the villaged and thing ado alk  aid his say in comesureven't say, acrearne
+----- diversity: 1.2
+----- Generating with seed: "elieved them of their troubles. then they began to"
+elieved them of their troubles. then they began to cosernd aab
+and throwked his
+foder scoot reageng the boys cheer lave why eatelard
+enound that's vericur to rever, kied the sorrerdeh were plasiously conteving upon their blads. but when you was not cloin semefreifeg myget pure a eashimged areweft. thying at
+a
+cleck, the diry. tom seot wany her. worked 'ten
+exped sect,
+whole good greas by coment hosse
+cir madven it.
+shetwurg akady
+afoin-bles to vi
+Epoch 4/60
+128831/128831 [==============================] - 42s 324us/step - loss: 1.5998
+
+----- Generating text after Epoch: 3
+----- diversity: 0.2
+----- Generating with seed: "ion,
+upon the unhappy prisoner at the bar. we rest"
+ion,
+upon the unhappy prisoner at the bar. we rester to the stanted and the stream and the string and the strumber and had had had had a counted and said:
+
+"i don't was a some the stained the midner and before the seared and the string and the started and proseces of the stanting him and the stanted and stringed and the boys stood and from the stronged and the searder. the boys had searing to the searing and the string and hearted the stringed an
+----- diversity: 0.5
+----- Generating with seed: "ion,
+upon the unhappy prisoner at the bar. we rest"
+ion,
+upon the unhappy prisoner at the bar. we rest the carculed and the or cear a more here at that he was the make and the seared and was as the and spring acay and the a chouted that the had his picked the out of a could to the seraming the made and exped to the estonic of the stanted and the milled and the reculacted that the was a mid and the way it was no had had seemed to keep delight in the back the said:
+
+"no, a graver the end after boys
+----- diversity: 1.0
+----- Generating with seed: "ion,
+upon the unhappy prisoner at the bar. we rest"
+ion,
+upon the unhappy prisoner at the bar. we rest wenters were. every, wisheging firens at a
+; she had dresmon alo-ed an way. i dim just at was any morn. i mon't the
+extrioustitce haw the turg, aims, drank--battered that done
+gone. at a good rived if
+it; but has suculias were gidly for the rig the wighing at the annose, sid had tnieary of courstmet celts in a remlicied; news were curganked them.
+
+the schiicen bound a outle wheoned
+could him he w
+----- diversity: 1.2
+----- Generating with seed: "ion,
+upon the unhappy prisoner at the bar. we rest"
+ion,
+upon the unhappy prisoner at the bar. we restince could aloggarnes jived
+for it, aurhing
+him
+that helage."
+
+"why was alf?" bly wasirith is yeels, vitilep wan  ubveingved mught; messenamy for that."
+
+"ots clot! chup as awon eace."
+
+"now! when who on
+coul, and under awourd to. but opley were. then his ligineinecnishelar the wan; aram geps-sagged to his lastful inseesting around that scoaced speanless pefloation of a was tay, the lidouthen. tom
+Epoch 5/60
+128831/128831 [==============================] - 43s 332us/step - loss: 1.5588
+
+----- Generating text after Epoch: 4
+----- diversity: 0.2
+----- Generating with seed: " of it by age
+and familiarity with failure.
+
+by-an"
+ of it by age
+and familiarity with failure.
+
+by-and--and he was a stall and the stall and the stander and the straider of the straised and said a morn and stall and stranger and the state. the stead and face and the stand and the stall and the state of the stall and the stand and the strailed and word and went to the stander of the sead, and said the stall and becky that was a stray and the staint of the streat and the corrance and the stall and
+----- diversity: 0.5
+----- Generating with seed: " of it by age
+and familiarity with failure.
+
+by-an"
+ of it by age
+and familiarity with failure.
+
+by-and said the stronged a starped him and from the day and spenul of last of the stall was all the went of the murming and the choustancing that a there the presently and stander. then it and went a stronged of little and for the boy in a desplance a lack. the spear the steal shoped and the morned and in a place to ever that and in the mind and the called on how he would stronged in a rays and word at
+----- diversity: 1.0
+----- Generating with seed: " of it by age
+and familiarity with failure.
+
+by-an"
+ of it by age
+and familiarity with failure.
+
+by-and and went endron-back as dask over and like, my blust and neer morning as he miss in a molint went, but tawher bean that
+calt,
+"in way, but i seached you'll she, what's a
+days fret batair heuft
+"hein that laver but nockle thre troched for shoped and vening, the time-last at last ever was comforteshed-bleck mornang head my mike enough the pression, in the seemecawhered from head, and which head. h
+----- diversity: 1.2
+----- Generating with seed: " of it by age
+and familiarity with failure.
+
+by-an"
+ of it by age
+and familiarity with failure.
+
+by-antce, say--pohd and buty ofelonstsed.
+
+"lem nrog window, they had sed. tom, milly bur
+word. joads. st govey wenthol, by back. alarve use
+air ele, gold-hid smrnugn that frire exand too a
+longhs mreaning--felt smobal dayarvely; hhe'd gestent, sause, so ghan her neline."
+
+nhas qulstm_text_generation.py:70: RuntimeWarning: divide by zero encountered in log
+  preds = np.log(preds) / temperature
+itly one wiul with this for
+intere,
+wneecrayed again; she
+old foot coild'n "
+
+pregee of did asftippadned!-bleoses, inktoorm
+Epoch 6/60
+128831/128831 [==============================] - 44s 338us/step - loss: 1.5323
+
+----- Generating text after Epoch: 5
+----- diversity: 0.2
+----- Generating with seed: "know that he
+knew anything against him for the who"
+know that he
+knew anything against him for the whole here was a moment and the sunday, and the sunday of the boys and the word and had had an arm and the strock of the strick and dead the sunday and said the boys and said the boys were the roard. the some the sunday, and the boys and said the word the fell and said the sunday. and said the boys the boys the boy was a moment of the sunday, there was a moment of the sunday, and the boys and the boy
+----- diversity: 0.5
+----- Generating with seed: "know that he
+knew anything against him for the who"
+know that he
+knew anything against him for the whole lever, and graves the donern on the candleved the night, and all with a consciention of the strickly and wait and the new all was a little and dead to the ear in a great be and the small window, the old and the time and sid up the boy, and the boys and the windors of a boys, and done and she think him, and said the counst of the dost for the still were what her and considered the reary with a s
+----- diversity: 1.0
+----- Generating with seed: "know that he
+knew anything against him for the who"
+know that he
+knew anything against him for the whole cane supper
+fells bende or for im!
+
+"   your for on!"
+
+"houd. a hoos. sunaw an a-fer."
+
+"no, a will your got at the ird ligh to theret. this by the witgon that there was
+enmoted and and siderybly granty body cancire no little her. there was a light gation at the
+woots the moation,
+-sudard auntpance to a
+moment considerad. a mirncing to got in--"mast to attent looksed enough a islide that im?"
+
+
+----- diversity: 1.2
+----- Generating with seed: "know that he
+knew anything against him for the who"
+know that he
+knew anything against him for the wholed
+courston would browed an hour by bliy. ieless undor thought back
+topternessing glow-,twouth and drugnen
+the presenciedaint bo bingless, warm, blaves. pretiincall reaged, and a feit and xdats on, ancover awatered
+him, and seemed sogmat came, and pansa-d-youl spy, never going alls the contrad, alongs of coud "if i say he don't to ?"
+
+"ono--your anybrock don't i was
+said there was again, judmjnds
+Epoch 7/60
+128831/128831 [==============================] - 42s 328us/step - loss: 1.5119
+
+----- Generating text after Epoch: 6
+----- diversity: 0.2
+----- Generating with seed: "n by shouting citizens, thronged around it, joined"
+n by shouting citizens, thronged around it, joined to the stanting the standing to the sould and the stant and the morning and the same to the sperit to the standing to the sudful of the sperit of the succom of the strong the made the strang and the suncland of the more of the speep the sect of the stanting and the summon the sunclean of the summon the made and some the standing and the boys of the side and the suncleng and the boys were come and
+----- diversity: 0.5
+----- Generating with seed: "n by shouting citizens, thronged around it, joined"
+n by shouting citizens, thronged around it, joined because and so to the kindled the moon the wead might be picched the right to the seing to the stay perist and the grave and
+the cosernce he was and the ground and distanding and over himself to the boy more at the cave
+and to the sudful she of the rear and get the boys she don't be all he was jaff comence and a moment the spercricked at a mighty presently for a counted the spear the summandence
+----- diversity: 1.0
+----- Generating with seed: "n by shouting citizens, thronged around it, joined"
+n by shouting citizens, thronged around it, joineds. in the prise chils be was under the souldant
+because, new milthes with his peaps.
+
+
+tom then as no mit upon reveanly mono young and
+he came me dis dod himself of matasked inevedded him harped she got outston
+ingie complanful. the wate despicude. "it's allway was load. you kill you"
+come about to the bar. tom picked leant amound, and he rash nowas lalh lack of the dicking, and
+it and tom and the
+----- diversity: 1.2
+----- Generating with seed: "n by shouting citizens, thronged around it, joined"
+n by shouting citizens, thronged around it, joined to cry, tow how
+he outcoliddaty-bug
+the ught
+lough, some quetchoning. it coyick to tad materous undiin; and the wore it, cosivelway the lothen old cleft
+weal-crantuctatious thinds lookance becalleldner. oo, pace time. when he was's resent his rose. tom damsant poreccition-coming
+uncomoned to prain
+remellat and all, get it, no piptamtosle lasdrent the wyedforts, andful ordeas. when near a mighty s
+Epoch 8/60
+128831/128831 [==============================] - 42s 324us/step - loss: 1.4941
+
+----- Generating text after Epoch: 7
+----- diversity: 0.2
+----- Generating with seed: " appetite, while tom nibbled at his moiety. there "
+ appetite, while tom nibbled at his moiety. there was and dreadful was the spent and work the pack and the said the said the stranger and the stranger and had and said and her to great and the spertunt and stranger and the straint of the stranger and the straint and said the body was and chance to his something and said the right and said:
+
+"she the someter the said the for and the said the straint and had said he said:
+
+"she say, and the said an
+----- diversity: 0.5
+----- Generating with seed: " appetite, while tom nibbled at his moiety. there "
+ appetite, while tom nibbled at his moiety. there was a iscompted for the man the amsermed and else. she can was to down the hand the sulle with a sharps; but it was a breath and an eds on the feet of the morning a long sid, and said when the the fell
+out of the rest and deep some the sprick of chool had trow the seemed down on the sprick of the paining spent.
+
+but the back spirit enough the lookbut and the little and dread to his free and the mo
+----- diversity: 1.0
+----- Generating with seed: " appetite, while tom nibbled at his moiety. there "
+ appetite, while tom nibbled at his moiety. there was bigger; and mary; he had not of greas, in and backly. tom was althy dous off cancot condart, beit
+lons for me--no rotreed -'ppeased" another had been
+ally with a nights up too consrided frolt state all
+him's
+well tadzon dicking every always-right, and he soled and shy them istless--and ab of
+bott
+becky. the choon and remalk; mrsater dons, and surdicadly in an edad--that they week--and the firs
+----- diversity: 1.2
+----- Generating with seed: " appetite, while tom nibbled at his moiety. there "
+ appetite, while tom nibbled at his moiety. there was a afting
+real now-repts
+and
+and back and fow frosi?"
+
+pearted while it. there tueced firr.
+
+
+not oevel
+preseculare went firated till gry and curpicilinuss oy traving whinn; and diadet, and to have made dewadireten sur; lsast sumback him, at a suchary with some pupst cotter him bread stlous.
+the facedutrie out! fa"sorssi?"
+
+so it eated the onil becky. but a whoke simply. bbiid:
+
+"wellon alow, n
+Epoch 9/60
+128831/128831 [==============================] - 59s 458us/step - loss: 1.4820
+
+----- Generating text after Epoch: 8
+----- diversity: 0.2
+----- Generating with seed: "t a sound. one could have heard a pin drop. the st"
+t a sound. one could have heard a pin drop. the stood and thing to the straight and the world and said:
+
+"i didn't they're thinks well they're any hore and they're thing you was a long with a minution with a place to the standering to the widow before they were a president to the boy was before they were a most and the boy and said:
+
+"i didn't supprerses, and they're a my many and they went to see, and they were a shook he had been they were here
+----- diversity: 0.5
+----- Generating with seed: "t a sound. one could have heard a pin drop. the st"
+t a sound. one could have heard a pin drop. the straight said:
+
+"that's this mome and this sawy have they're really meant they're think it like they're all the well, i wish this small to tell. they're it along i with a moments and think."
+
+"start you warked you be
+meant to tell, tom?"
+
+"i'd was mary well, i didn't one away."
+
+"why, to you care i reckon they're think!"
+
+"there at this. i reckon as a place was and so --you got sorry, by tom who had
+----- diversity: 1.0
+----- Generating with seed: "t a sound. one could have heard a pin drop. the st"
+t a sound. one could have heard a pin drop. the staying, but
+the whooks, glowtyr a--int."
+
+"oh, tom!
+whan where, away, this! i seemed thit's for his bittere alloy gillty promay whitewurteltaned clerrech, and she ged trouble help the place grainf'em; it was bat. oed johing ups, by it up a slems, tome off's
+was look overs, mushhment like a stopponsledjor
+wetkled one thoming expe, as te
+hhovedinglas boys at to
+tell, and
+brokeht how it harddherb. get
+----- diversity: 1.2
+----- Generating with seed: "t a sound. one could have heard a pin drop. the st"
+t a sound. one could have heard a pin drop. the stroduh
+with mr saternses.
+
+let the kend event, laypult.
+and whben likteri; it said thatcher; marte in the haboard's gentricity, and that. they had
+naked humidy his x? quearks.
+
+
+was book
+romin't bork--too aboby con. now. pale down tostay
+whoe sermit. she be
+twicer
+hangriggess, by he awridledmarble with scrop invemass
+steart.
+"her. dan'bl,s, and i've runnabed, and
+thatchings ryd."
+
+"swar good" jagj
+Epoch 10/60
+128831/128831 [==============================] - 62s 480us/step - loss: 1.4702
+
+----- Generating text after Epoch: 9
+----- diversity: 0.2
+----- Generating with seed: "e got out his worldly wealth and
+examined it--bits"
+e got out his worldly wealth and
+examined it--bits that the thing the straight and the thing the dren and the boy that he was a body and the boy was a long that the streat and the widow was the while to the wore the boy that he was a sharper and the boy that the wore the boy that the strash and the boy was the way the while to the while to his said:
+
+"what's all the morning the boy all the word the widow with a can and the that he was the while t
+----- diversity: 0.5
+----- Generating with seed: "e got out his worldly wealth and
+examined it--bits"
+e got out his worldly wealth and
+examined it--bits the whank alfot the secrity with a his pare and whispered that the loved that the thing the boy was gone the chass to his streathed to the hand to school was with his that the was that there was the cave to his man that they were dender huckleberry about times she was thing the laid of the hand the boy that the long.
+
+"what's been had a time."
+
+he seemed something before the right. they would
+say
+----- diversity: 1.0
+----- Generating with seed: "e got out his worldly wealth and
+examined it--bits"
+e got out his worldly wealth and
+examined it--bits for been allaten turned to the foot a still
+with eight.
+
+chapter outanisbon-tafsial drown its
+tacked him graping let of huckly--then would be. the fires and of salake.
+
+the faconial hamaces againds in the tent, and these was as, andobodinuti, and
+maseress him all the bar--swilling, toon wore for a sut with the moy of cured to befor an them and
+than he stood without---
+"i couldn't hucky i beg, tha
+----- diversity: 1.2
+----- Generating with seed: "e got out his worldly wealth and
+examined it--bits"
+e got out his worldly wealth and
+examined it--bitsing for woth a "gally, that?"
+
+that's that elies to the ranckinging that had seidh into then
+he sharfs floord-poom lolt gration
+in then the suraogrnalilinief-yunding beet mechoust small. she godnive glasires not grew knowntibopettmenthte."
+
+"whis roolarkinatimes oo mell-brectums mace the redails shalf poxtiat sid, neltel, and itwas blast
+tilk forthise
+it upon--she drerest forcered upon him all cam
+Epoch 11/60
+128831/128831 [==============================] - 62s 484us/step - loss: 1.4592
+
+----- Generating text after Epoch: 10
+----- diversity: 0.2
+----- Generating with seed: "ewhere. how'd you feel to light
+on a rotten chest "
+ewhere. how'd you feel to light
+on a rotten chest the the sound the sperture the the boy that was to the strained and the mater the the starter he was the boys were sound the time the strained the sperturned to the struck. the seement of the straid he was a long the the searing the sperture the boys were the boys and the boys said he said:
+
+"tom. they would be the ready a see a sore of the the the straining of the the strained the back to the str
+----- diversity: 0.5
+----- Generating with seed: "ewhere. how'd you feel to light
+on a rotten chest "
+ewhere. how'd you feel to light
+on a rotten chest of still, and said:
+
+"hucky be'are to the starter of a . then you don't you ain't the boys that any aven down the word to steak to the place the track he was most a speeped the stury, the work every 'e
+took the savened the boys got then. and you got to see him the could have the reason. they said to be talking to her to the spectation of the thing and she was gone to his feet the triffet was for h
+----- diversity: 1.0
+----- Generating with seed: "ewhere. how'd you feel to light
+on a rotten chest "
+ewhere. how'd you feel to light
+on a rotten chest to grew doon in the two and thm time; tom coode out for his 'em and then then if you didn't you trof stipy, huck!
+he had ded in the herement, but it only rearous she dad no have to week a bairets. he would once to uines ups to a give upon the
+ne! it tinked topt of the was vadent sourt--and joe ratered huck, injun it's just of the mattle of it's doge to the body is, says you down of as body swepth
+----- diversity: 1.2
+----- Generating with seed: "ewhere. how'd you feel to light
+on a rotten chest "
+ewhere. how'd you feel to light
+on a rotten chest noo. whtt there's pocent of waint the owel lay strous warring any to a
+answer dimest give i cul addrraaring fourt ones
+s'udonged-and--no baid"  is ingerite, style endasted, and the next very had
+applowers, and
+the the very oud home as
+spusting upwimoul's
+remeiness by
+make
+an wepe to eeccuiase. tom hauped the blunktreariply runking--this frace the gatings--here. i did not meaut, now e've won't be
+Epoch 12/60
+128831/128831 [==============================] - 62s 479us/step - loss: 1.4528
+
+----- Generating text after Epoch: 11
+----- diversity: 0.2
+----- Generating with seed: "top, but they still waded slowly on. it
+suddenly d"
+top, but they still waded slowly on. it
+suddenly dead the boy and the boy would be than the straint and said the body had a mind and and the straining and stray a cave and the secration and the sprang the world a look and the boy and the sprang a land and the sprang and the spectation the world a bod the weak and the straining the body was the body and said:
+
+"i don't say that any his here a moment."
+
+"well, they're any good to the wom the wom th
+----- diversity: 0.5
+----- Generating with seed: "top, but they still waded slowly on. it
+suddenly d"
+top, but they still waded slowly on. it
+suddenly down that the weilg the were the heart and wores laborad, and the feelen; and started the feet and say and admantion and the widow call the gried, and the woods, and started a put the farust the worldly but the
+stray her seeming, and the recices of the sectait of the heart and the all the hand to this fool a posside and stealhelment their amon the widow comfort things the spectation in the sectail
+----- diversity: 1.0
+----- Generating with seed: "top, but they still waded slowly on. it
+suddenly d"
+top, but they still waded slowly on. it
+suddenly dressed his seinfors
+knownce childrs of
+grew
+felt. when the mild slong thrise or taving agreed becry, stuwnow an his boy stopping
+him, and all
+hod
+trued to either bern--the
+dissay. a lathed samuld
+fiin of dewead. the mindeed that cining am opon war- aotearved jimplekness ely
+with him:
+
+"aunt resche trowy more."
+
+"it thought dead-bowar throwger awful floot's gorm like envidresspection. the wiles als
+----- diversity: 1.2
+----- Generating with seed: "top, but they still waded slowly on. it
+suddenly d"
+top, but they still waded slowly on. it
+suddenly dore any him. and chaves, shelowndy this halfner with her his chact awhurted their
+d underyheverh-plabon. the wide magle with poor
+the felt big lost them."
+
+"and be me onarly!
+mary, you was."
+
+"well. wht't have all a
+take ?"x----thas. he'd his pictiti?"
+his
+hand
+shour" some hear
+
+go hiss nelst make thise worst; in
+the
+oup--
+
+"was no, he be
+,ode?"b
+liif sigf on deepo's for her his, whe schild, i sew
+Epoch 13/60
+128831/128831 [==============================] - 61s 476us/step - loss: 1.4436
+
+----- Generating text after Epoch: 12
+----- diversity: 0.2
+----- Generating with seed: "m traded a couple of white alleys for three red ti"
+m traded a couple of white alleys for three red time and the said to the water and the street of the such a mind and the strung and said to the such a midnight to the said to the such a long and said he would have the widow when he had a look and the some tom was a something with the said he was a some boys were and said he was a mind and the world and said to the same and the world and the strung and the strugger and the sureful and the straint
+----- diversity: 0.5
+----- Generating with seed: "m traded a couple of white alleys for three red ti"
+m traded a couple of white alleys for three red time a sort of strung and newleds and said himself in the summer, he done and content had gone, with a dreanieftet the widow but bother parthered furits and world and such a had took his searchers, and in the dore and had she that he was a himself and said in a body form. the light be now, she was a long of
+sure the creath against the lost and stood and good and the boys' and sleep. the sound and ne
+----- diversity: 1.0
+----- Generating with seed: "m traded a couple of white alleys for three red ti"
+m traded a couple of white alleys for three red ticked
+upon his semal
+back.
+
+then
+he and shouted, too
+just when he procaye for them or "talked a weugh the one
+and it took at the boy saybox domen everything by ment of his village, hoceverih arme tom sure-poace
+did a long-arse! seem day himsions of now vish that yought id. they followadioned knoround the oblair dead to un it tree, too, proped that huckle. and ay--no he had tooy ho
+crossed it out th
+----- diversity: 1.2
+----- Generating with seed: "m traded a couple of white alleys for three red ti"
+m traded a couple of white alleys for three red ting-blend loyed like a 'it go him so get finam
+and joying. that's being."
+
+darisharing ascreadives and the said from becky now, it's not kind. you're mid to him i come whouge?" said to'll dreas oe dill it to under again away go
+dimpiation.s
+
+now, beviut of dath if you hand hey of a savenner
+reariffe off
+pane or no di-mough himssered----that she lagged, did bair. you sa ouch again, tom? we's hacgree
+Epoch 14/60
+128831/128831 [==============================] - 62s 479us/step - loss: 1.4367
+
+----- Generating text after Epoch: 13
+----- diversity: 0.2
+----- Generating with seed: "or a couple of blue ones. he waylaid other
+boys as"
+or a couple of blue ones. he waylaid other
+boys as the sprence. the boys said:
+
+"huck, it was in the words."
+
+"why, i can't be any one the went! i'm said the word!"
+
+"why, i can't be any some that they went to the words."
+
+"why, i want to see him and got to the morthing it is her the way that he was and he was second and the morting in the wide the time the which was and which he was and the miden and the words was and said he said he said:
+
+"how
+----- diversity: 0.5
+----- Generating with seed: "or a couple of blue ones. he waylaid other
+boys as"
+or a couple of blue ones. he waylaid other
+boys as such a way, and there was a concerned the long for the great there all watched.
+
+"well, i bet on the suffering anybody went it i was, that's he of the morthing to the way of the landing as he ready by and silence there was the since the boys she was there along and said he was long help the such of the way and the hard warmed the struck. he said what do it of the meding. she were in a learing the
+----- diversity: 1.0
+----- Generating with seed: "or a couple of blue ones. he waylaid other
+boys as"
+or a couple of blue ones. he waylaid other
+boys as theawem; she hid them. and he airilif
+thanche.
+
+"thi, i pnoug or spent toucheliess on sids way, tom would schoolly as moment, and the time "didn't through the boys rate you was. heir the nabbe, in his graspected!
+path have thruck infrices, in had hearts their night to the fels,
+and tom eaters
+sammittered
+with there--choll frighboon and beake, famising it
+open;
+--"
+
+"ohny away of need. if said he
+----- diversity: 1.2
+----- Generating with seed: "or a couple of blue ones. he waylaid other
+boys as"
+or a couple of blue ones. he waylaid other
+boys asmark waspen arrived:
+
+"why's he mig of the sow. don'ch all ?"
+
+tom prays consciraing and messed sau; it was thatchouce that naamost luckforniau.. aeding them, wat noule. he sucuitce; chode yout---cly lie whit's sen-chap!"
+
+"no replic of one
+--but
+way, domy, stonly home of otsed, but shaldeked--sterd about one,id. coned, bennlesness let torsine? presents was all bish. so or call they had, in.
+
+ lan
+Epoch 15/60
+128831/128831 [==============================] - 61s 477us/step - loss: 1.4315
+
+----- Generating text after Epoch: 14
+----- diversity: 0.2
+----- Generating with seed: "n had to tell the story of the night to the
+visito"
+n had to tell the story of the night to the
+visitorness of the boys was a long and the boys said:
+
+"it's a man and said the boy's world."
+
+"oh, don't you got to the many of the boy again, and they were the boys and the boys was some the boys was the bear and the boys was a bear and the suckbooke there was a great and said:
+
+"it was a long that was the boy was the boys been she was the read of the world the boys was the such of the which had some
+----- diversity: 0.5
+----- Generating with seed: "n had to tell the story of the night to the
+visito"
+n had to tell the story of the night to the
+visitory strung of the sureful and it was got to the severed the boys was his struck of the doing that will had been heart and had town of the boys reached the creath of the man from the way of the
+strung and the well of when he was half the mater the light, and the one the dopt the which descricious and parted the shalling the boys and streal world to get one of the discoure. the boys struck of his arm
+----- diversity: 1.0
+----- Generating with seed: "n had to tell the story of the night to the
+visito"
+n had to tell the story of the night to the
+visitorive the indret. they that world she
+was week, bocky and just could his gravel 'e
+never."
+
+but a suppences his strush very pleason was made up
+on its down not by there-bear looked
+and confogetfore the ponevaene. better
+over, than ever
+bacy a log of their bell tom said:
+
+"ghasing of she aunt's she had mame the
+reman'a and so inthe hided his most of back sudfacion.
+huck, saiding for go a conspoment,
+----- diversity: 1.2
+----- Generating with seed: "n had to tell the story of the night to the
+visito"
+n had to tell the story of the night to the
+visito,   ener, dog supple. more,--then there. "hold rois unlew that. s'llor curn why ave of the mey jush. retasni're but aun't cor! sformine, you this."
+
+"all it's had many--don't you'll whit'd
+do'lle you
+or tick. housion twice, in mebow, mikenes handing there; and they unither leck, saf to inere hospeely fixmy of greaths whitepsy and thing . was along,
+but jiked invythines about there, grep thatcher r
+Epoch 16/60
+128831/128831 [==============================] - 61s 477us/step - loss: 1.4259
+
+----- Generating text after Epoch: 15
+----- diversity: 0.2
+----- Generating with seed: "m, it's a cross!"
+
+"now where's your number two? '"
+m, it's a cross!"
+
+"now where's your number two? 'eet it."
+
+"i don't got to the little to the boy wouldn't say to the distant so were as to the straggers of the tried and the companions the terrow the most began to the strain and the boys were in the strain of the treem--and then the boys said he got the tried and the took and the boys were and the were the suncless was and the cried, and the concertant the that the stragger were the cought and s
+----- diversity: 0.5
+----- Generating with seed: "m, it's a cross!"
+
+"now where's your number two? '"
+m, it's a cross!"
+
+"now where's your number two? 'eet it on him that but it's the crick."
+
+"oh, what so it's a distant son't tell them, i was the time to the botter, and so he took with the gree was and facution and the next bed--"
+"swept him boy's heart, but we can that a for the amough to upon his earies of the way and so closed being with his scould taken and master and the book the mind and more and so fround becky was some with and gones of
+----- diversity: 1.0
+----- Generating with seed: "m, it's a cross!"
+
+"now where's your number two? '"
+m, it's a cross!"
+
+"now where's your number two? 'twather a knifefults, touns of in ingerlames."
+
+"thereo way?"
+
+"i reby and took dead."
+
+"aunt pole other time."
+
+"i done around a corras do that, goodls out, and meble conscied to do it. and presently no with a
+that
+make not nohe betweenh, promise that washanching about the furting bedsterns till took dollar. asor
+from
+clack;
+peated geniise wasging at the broke arsoubs.
+
+"oh, i did   it only. and
+----- diversity: 1.2
+----- Generating with seed: "m, it's a cross!"
+
+"now where's your number two? '"
+m, it's a cross!"
+
+"now where's your number two? 'i' wouldn't week you sin, ofderiam--doy's bug'n gaviticl,i."
+
+"no!"
+
+tom vishwive brocgeds. the --"
+"and it's him so
+belied leass."
+
+"; then said here about menne. xjom you
+saeks
+now
+dusi biedd of a fesegfore; it did sowns. no plaringsder,
+ain't betainer sick?"
+
+"you'll so; so "shorse. put
+and felt ever havel himed in expreted mys griar in scoldring, as a
+tight, and dayly, and once which had "law
+Epoch 17/60
+128831/128831 [==============================] - 62s 479us/step - loss: 1.4195
+
+----- Generating text after Epoch: 16
+----- diversity: 0.2
+----- Generating with seed: "part company with the body, and the slender thread"
+part company with the body, and the slender thread the words the boy was the musing and said tom said:
+
+"i didn't say the stung. it was a little seem, and the widow the world and the thing the widow when the strain and the surble and the boys was the musing and the musing and eccried and the sungar and the sunday
+strung the widow the path and the new the boys becky thatcher said:
+
+"i didn't say to the said, tom. there was a long and the surp the
+----- diversity: 0.5
+----- Generating with seed: "part company with the body, and the slender thread"
+part company with the body, and the slender thread a low
+lort to the bing by the fear and instant the boy street to the wasted the boy was in the night and the boy that he was not his than he was a moment the boys had getting the two little and the shadile through the papers and mambered
+the closed him, in the boys
+deeperad in the nerre in the words to seem saturding never say the straggers that there was tom took and she had genered to the the w
+----- diversity: 1.0
+----- Generating with seed: "part company with the body, and the slender thread"
+part company with the body, and the slender thread
+to shetwhere the first
+schooly batch strain not the labyously every tiot, see down to
+see goodoc, for the pack and
+heremonging window, and most orlied the night. the would is in a diffe evely to either his right. the
+propowses, them made mighings of a moment, mught the people, spirits;
+the racnleped of
+all, his town fell. and
+begacated eatsy doctions dear tortel-liters and strain inap the two of
+----- diversity: 1.2
+----- Generating with seed: "part company with the body, and the slender thread"
+part company with the body, and the slender thread iss-found. sid found another
+two hareflorat lough thaumunly only up a
+movenby lay matied
+it
+his
+intwasoumlious boy denint lick and fadly intendly ain ecruckled comiousd once'r or her hey undersed--yout warty--and seem, go took in the stilly, kit, you
+di. whotche a tin bofe gintlari great."
+
+"rest toon made
+didn't vinitwors, tom valion. they went his adeaving voice, pleast cape and dulh. the owron
+Epoch 18/60
+128831/128831 [==============================] - 28716s 223ms/step - loss: 1.4164
+
+----- Generating text after Epoch: 17
+----- diversity: 0.2
+----- Generating with seed: "by clamping his tongue between his teeth, and lett"
+by clamping his tongue between his teeth, and lette the spreating the whicewfult the widow was some the words of the staring a sharps of the staring the staring and the mind the staring and started the scome of the started the distance and said the widow was some the mind the widow was to the started of the standing to the mind to the words of the distance and started to the supper and the widow consideres of the staring by the mind the mind the
+----- diversity: 0.5
+----- Generating with seed: "by clamping his tongue between his teeth, and lett"
+by clamping his tongue between his teeth, and lette of the work, not and it was a last in a long to do the still that on the court mesself have right and sunday-sear the hand to his crossed the reading by a parting she shoulded her time to the corting that sunday-smelt such window down and said he was he found the read, and began to me started to the as hearts was the all the boys were again it was morning and for this failly and more and some in
+----- diversity: 1.0
+----- Generating with seed: "by clamping his tongue between his teeth, and lett"
+by clamping his tongue between his teeth, and letting knees got that she old wooked, and
+that benawsile and after and these my layly two iccully you don't got a sly, it will!"
+
+"yes, that's you too that anython through of down, you'mr he could not
+stay it."
+
+the recrearwced, as you have getting of river when it ask of the cort them thought air have fould time, i chome reighing, time then
+place ante-his girs with a short of it. the manifust and ry
+----- diversity: 1.2
+----- Generating with seed: "by clamping his tongue between his teeth, and lett"
+by clamping his tongue between his teeth, and letting follows out through the two under that was not upon he creave the half, he was back. fa presently to whaps day or to tist in hand; he wast him. but the rigit
+and fell place as he grannisakently spettrunity with while
+crokered lany where he dorsty in friliars facution unknesssly for a usessive dayins
+fulks effecter. the gaarest de an hime, and good:
+
+"aurh, that ain't reops half outt it ri'rl
+f
+Epoch 19/60
+128831/128831 [==============================] - 44s 339us/step - loss: 1.4102
+
+----- Generating text after Epoch: 18
+----- diversity: 0.2
+----- Generating with seed: "d? what's his other name?"
+
+"he didn't have any ot"
+d? what's his other name?"
+
+"he didn't have any other boys, and then it was a long and thinks and the way and satern the way and things and the straining and the courte and the way the way and the boys and a moment of the strain of the strain of the studbless. the boys was was a little the strain of the as a chood and the way the was to the courtersed the strains and standing and thing the way to the way the way to the way and to the way it was t
+----- diversity: 0.5
+----- Generating with seed: "d? what's his other name?"
+
+"he didn't have any ot"
+d? what's his other name?"
+
+"he didn't have any other the way to the tater?"
+
+"i won't was to was that they be done and the boy was a glost before the bick the morning the way and the boy was dead and thinks, and then all the days and saturday--and she was a week. he was to the way a long of the condoned through a displaness was for it was a long, so he was for the strain he was hands of the middle was a body was to to the ferry and has to to tha
+----- diversity: 1.0
+----- Generating with seed: "d? what's his other name?"
+
+"he didn't have any ot"
+d? what's his other name?"
+
+"he didn't have any oth nor."
+
+"a. right so-"
+
+"a?"
+
+"yever was i diled 'em, 'tion away him-fris--nothing feating of made so ids would young no reafly with long do they you all preciom toots; being labors was peases. when busitions to miked lost word. the ment of a loper; he mush! this boys,
+why rop dead down that elfored went on tabquired nother, the
+libline and things for seen docnstaity. for ming thees satisfersed h
+----- diversity: 1.2
+----- Generating with seed: "d? what's his other name?"
+
+"he didn't have any ot"
+d? what's his other name?"
+
+"he didn't have any other to!"
+
+"owlby, it is-ajsth more eugpurahmwabd
+to tomp pet to be in about his stud, bkdong by too as. negs. he stratchingt. itqus.
+wheneward
+the, tom, into the miswhile shirps. they batt had asrerd and tom
+arrust beful in chemiit over the munbolyate so waited those. they bon clast he one as akepwidotes overheadsably. but tom.
+
+"i'm grables as it was little oped! don one, 'hopfow whisperited be f
+Epoch 20/60
+128831/128831 [==============================] - 44s 339us/step - loss: 1.4077
+
+----- Generating text after Epoch: 19
+----- diversity: 0.2
+----- Generating with seed: " could have done that, tom," said mary; "and i bel"
+ could have done that, tom," said mary; "and i believe to see a whole the whole tom. the way a long the surchous to see a long a the surtuation and said he was a weat a body was to the surched of the surchous to see the surchous to the surchest the surtuat with a place to the surtuate of the strain of his strain of the surchout of the was her head to the day a way a shouted to the sungations was a matter and the whole to the boys were heart was a
+----- diversity: 0.5
+----- Generating with seed: " could have done that, tom," said mary; "and i bel"
+ could have done that, tom," said mary; "and i belied with a moments, it was a breathe the whick was to see a words he was a late he starp smoth and the whick was in a right, and was her hearted and said in the the skisted. the recife was afterness and the fairing place was back and stepped the red-hating to the surpic along he had the standing his sould! sid himself and the boy strung to do the stally and something starting to the trie the time
+----- diversity: 1.0
+----- Generating with seed: " could have done that, tom," said mary; "and i bel"
+ could have done that, tom," said mary; "and i bell have lad."
+
+"it was about abmosn's har-fust purgle down on its ample under the great, wost a
+reply. the rasler in where the fins to waiting from
+nice--hisperdent him. he beggened fool. "her next more like, away gowapling a bingad, amsents. his
+aunt. he took for he lay the montly was soul, for the balln nerm of teresing ell; pervone. when we halps. huck was nesencing into acbrody came. he same th
+----- diversity: 1.2
+----- Generating with seed: " could have done that, tom," said mary; "and i bel"
+ could have done that, tom," said mary; "and i belied forwag?"
+
+"ollo! with it wart it tolds aresty by her --wes holdfully call told lad unto the big he titted his eyarptry on a littled soul, in stread.
+
+"les, ay young laybee had got like, i wanted, confip on hnreaty no. she said adory, but douh of shpr. but sid gre
+fount, knop these diing-deach
+bedwad be the at tte intiles that's your ,kind!"
+
+the was into huckgen last a lactring hed, the moment
+Epoch 21/60
+128831/128831 [==============================] - 44s 340us/step - loss: 1.4045
+
+----- Generating text after Epoch: 20
+----- diversity: 0.2
+----- Generating with seed: "equently slipped the bandage free and then leaned "
+equently slipped the bandage free and then leaned the straight in the string--the streat and said:
+
+"benwon the string!" said the middle was a little the straight for the straight and streath of the time the string--the strenger and said:
+
+"why, they'll they were had a mind the window some the straight as the straight as he was a little strunk--and be the streat and said:
+
+"why, i don't say the consciling with the straight so a mind in the streng
+----- diversity: 0.5
+----- Generating with seed: "equently slipped the bandage free and then leaned "
+equently slipped the bandage free and then leaned not a conse. then the sendended the remembered and said:
+
+"as a commer a business of the a sharfulally sijened of the string. the sermance so in the middle was a thing of the sent of the could not shoved a spread. and then he were the fured and keep the streile of the seings would have the great spring in a pirate if the reason the straight mess, and the door the body seemed to the with loss that
+----- diversity: 1.0
+----- Generating with seed: "equently slipped the bandage free and then leaned "
+equently slipped the bandage free and then leaned applearing that been joes agains and the tinglidard out of the tell had mump without no studence, not. then by they were utfortened
+him--his loves said:
+
+"oh, tom, not muff now."
+
+he was the keep him and slipdened some that od, and said. "here steps-cool and e. they's to lead e. i don't say that you'rd tongush, you not he always might they think" awful dist shorted till lorag; then the spread cans
+----- diversity: 1.2
+----- Generating with seed: "equently slipped the bandage free and then leaned "
+equently slipped the bandage free and then leaned secouts. they foup upon his lesst himself, as the fen, studing looning, and
+the jon three freg ly jintly secreptred to showly remembered only wor s   hop, us
+grew gimbonkly back into my to. there even bace of the mittering yet,'s
+good sire.' he olluct sures."
+
+and found it! unders good.
+
+"lost that that if he he a milaliou from her, poor than
+the body and warives and mas other
+grawpacpenes,
+to't's
+Epoch 22/60
+128831/128831 [==============================] - 51s 397us/step - loss: 1.4011
+
+----- Generating text after Epoch: 21
+----- diversity: 0.2
+----- Generating with seed: " and
+there would be nothing so good in the world a"
+ and
+there would be nothing so good in the world and the stranger and the stranger and the the stranger the strang of the stranger and straight to the the sure-corted to the straight the straight the boys could see him the spence to the sent of the spreading of the straight a spent of the straight the time the thing for the spence, and the done the heart to the spence and the the stranger and the stranger the spencionsxt of the stranger and the s
+----- diversity: 0.5
+----- Generating with seed: " and
+there would be nothing so good in the world a"
+ and
+there would be nothing so good in the world air the studh of the cave and the thing for the such a last and dead to the when the strang the streng and he was noices reded so a long they was not boys they were the well upon the far the head from the thing sound he had been in the word, and he was groper was himself that he was her hand such a weigh and was sound the boy as the stranger let of the falled it againing along through the sound aga
+----- diversity: 1.0
+----- Generating with seed: " and
+there would be nothing so good in the world a"
+ and
+there would be nothing so good in the world acryuble spirication that he said:
+
+"have all up the leh caution!" and no bushed to know. not intererrage, to the along in the inep to such a almed; place to
+hopping and in thus after feller-bull dens in the one that belt began a cent his not bevess of the bourg cauth sish compactement and jumb said the changed redaled. they were of his panap.
+
+then the boys seared he was nefry of the temponip, and
+----- diversity: 1.2
+----- Generating with seed: " and
+there would be nothing so good in the world a"
+ and
+there would be nothing so good in the world and greas upoony for are that burge hidself, there was asay, now, and then 'tever krowes, anybmaty in him."
+
+"plead, got dob, it, i'll fonces a for?"
+
+aht deacovs wes to splending to--sp'mter, you kiit had
+here."
+
+sull, pnories.
+itet coming sinn thom shurched the moneugure.
+
+"was yave hus--your that," bety pupers, for the oppreithing,' there was so them srislern't peese-on, don't leabfe you reach i
+Epoch 23/60
+128831/128831 [==============================] - 48s 372us/step - loss: 1.3993
+
+----- Generating text after Epoch: 22
+----- diversity: 0.2
+----- Generating with seed: "him. the faces of the audience
+began to betray ann"
+him. the faces of the audience
+began to betray ann told to him to the court to the boys said to the sure-cours and then they were see a with and then they were and then the took and the court the while to the sure-courit.
+
+"well, i want to see you so to the widow's don't say to the widow they was not to the widow they were see a breath and stood to the widow the court to the widow the boys were and the boys said to the boys presently the straight
+----- diversity: 0.5
+----- Generating with seed: "him. the faces of the audience
+began to betray ann"
+him. the faces of the audience
+began to betray anntuent to revenged that the boys pressing the boy after, the here to side a vingerns of the companded for the carm and the pick to came of the with a great faint all the serp a tom and said to broke the invare to the whole great a rous with the poor not the stump in the time the long them had been their and things for her heart of the smoke, and then they were was a secret of the straight all the n
+----- diversity: 1.0
+----- Generating with seed: "him. the faces of the audience
+began to betray ann"
+him. the faces of the audience
+began to betray anntricaguirion in
+then tom slif jucged up to eithered
+and clesked inoaurt, and said
+nothing. usmend he was hindd gonep not it. the waiting their part and sound a hilganss and turned to chammed:
+
+"good scerribfes were was to tom got to reafoesity.
+
+the confeging of the terrort upon the treasure till they don't mighty again. i'll mous yet asking boy's
+do you said you why didn't shouth."
+
+then it was a
+----- diversity: 1.2
+----- Generating with seed: "him. the faces of the audience
+began to betray ann"
+him. the faces of the audience
+began to betray anntod
+for the watery
+was by, tom's
+prites upo in the bolly.
+
+he had even.
+
+
+ac?"
+
+"sappens to amd down from his waying. hellouing because and reporious orole;ty was with them whis pucded and pale of all terrorse. then said, "s'semy."
+
+"day, rikterems, and hught seizedoaring
+upon, enaffed with theice troms, betoodly. we
+and funithdiyuc. her whatched bly out of the sighar-rug. firm, to bar always pair
+Epoch 24/60
+128831/128831 [==============================] - 44s 343us/step - loss: 1.3966
+
+----- Generating text after Epoch: 23
+----- diversity: 0.2
+----- Generating with seed: "ess coffin, and the open grave were under no inspe"
+ess coffin, and the open grave were under no inspecture to the straight so, and the straight and the straight in a suddenk and the straight had had been a while the straight to the whole the had to the restly straight to the streat and said:
+
+"i don't want to see him anybody say hards about the tall and the converied the while, and the counted the boys were and were and the while, and the while, and the counted and the straight to the second the
+----- diversity: 0.5
+----- Generating with seed: "ess coffin, and the open grave were under no inspe"
+ess coffin, and the open grave were under no inspect of day admonts of the talk. the boys and had had and said:
+
+"he was in a late."
+
+"well, i andy, i didn't say, and too suctal too smet to learn what they were not had had a little himself have could way. they had strock on the steps of the stally hards were and any could be a bully by the place to do the boy of his the mind of the secration, the great with the spirit.
+
+they were sound the partau
+----- diversity: 1.0
+----- Generating with seed: "ess coffin, and the open grave were under no inspe"
+ess coffin, and the open grave were under no inspeed! went eveit,bold. fill ofhing thelly's in buso,
+and avenout a layver but trink to cave-ryiclelt of great scalt. hoarty to
+was might, and a peap and or i could meant well
+oild huck's fin was now, and so began to ways told liked scicly. tom's about themselves
+up a thouth rema'ly
+had the weart now was beir
+back did at the ever seetialay dollard, he wantile a spondacth kept her hands-found up to th
+----- diversity: 1.2
+----- Generating with seed: "ess coffin, and the open grave were under no inspe"
+ess coffin, and the open grave were under no inspenion, scarged to the whicollewanled her. towan
+bed. tom went everything. huck and better
+whae ssairds all
+teffect offf to the blowees lefner there with and di! such wild, and far it's strick,
+and aunt, the next deppene. yest room, and back to
+jusf
+to work likedent, every, throusiars, but him
+and huck, beckychvernicaling againdscourself-cigtorn you'll candle-bey back nowon voile dilty-mound-'cando,
+Epoch 25/60
+128831/128831 [==============================] - 43s 336us/step - loss: 1.3935
+
+----- Generating text after Epoch: 24
+----- diversity: 0.2
+----- Generating with seed: "sion" and punctuation. the themes were the same th"
+sion" and punctuation. the themes were the same that was to the carcite. the words to the counted the words to the body was a short the world and the boys were funged to the words to the water the feartude of the time becky was a secration and the boys were to the could see a long and said it was a moment and the boys were the words to see the world and said it was a secret of the widow's chance and the boys was a little of the whole the words an
+----- diversity: 0.5
+----- Generating with seed: "sion" and punctuation. the themes were the same th"
+sion" and punctuation. the themes were the same the boys was a great been as to the boys would her them in the old not them be and for silence, and she well to the matter of the still and a specklinate and the words with a counterse was in them would be man fell to go to do the while to the wopter in the knowed the boys done the late for the corron and the selt of the way complece of it. the boys were the boys was the corron and said her hands of
+----- diversity: 1.0
+----- Generating with seed: "sion" and punctuation. the themes were the same th"
+sion" and punctuation. the themes were the same thrunged.
+
+"i couldn't."
+
+"who, e."
+
+"no, shuck was no free it would be
+is dist sweat!" but he was determ to back a low the village, that slife
+window in her flimped lake window looked as when maybe the bastles. filles le; sai miles-dragging the call! told tom roted you be stubs'll me watch, that's bead
+and he arou occhouls us the darkre look for the world; for he been clowased as too recerment his
+----- diversity: 1.2
+----- Generating with seed: "sion" and punctuation. the themes were the same th"
+sion" and punctuation. the themes were the same the hard
+dullor-aarceing lix it seter and not you body'll hir se like me don't take up, now, pally, too."
+
+oh, unplely."
+
+"no
+"oomy, and that's thatebbuges's i don't th milles her
+guving alten enerly
+olcow."
+
+and but pice. fourn, just hfortuial boys bread a this breart conted
+to passiblabes messisting later, and a sroke vature," said
+howsarnaunted.
+she riked about fenclual --
+
+"wacken out in her i'm
+Epoch 26/60
+128831/128831 [==============================] - 43s 331us/step - loss: 1.3972
+
+----- Generating text after Epoch: 25
+----- diversity: 0.2
+----- Generating with seed: ""why, i can't do that, it ain't in the book."
+
+"we"
+"why, i can't do that, it ain't in the book."
+
+"well, they'd that was the widow's straight the boy the feel to the straig to the might there was no the way the widow the words to the way the boy that there was no the the straight and the were all the strait and the widow the boy all the the straig the feet and the boy the courest with a minutes the pressing the disdlaally and the widow the the were the widow the straig and the worldles with the s
+----- diversity: 0.5
+----- Generating with seed: ""why, i can't do that, it ain't in the book."
+
+"we"
+"why, i can't do that, it ain't in the book."
+
+"well, they'd for the words."
+
+"and they of your here's to the money."
+
+"well, they but the rest of the stay him."
+
+"and the dready to the boy of the mighty anything--huck was not to the while, and it was to make a bolt were the the boys were that the boy of the wordy, and there was i mee the widous long and the widot the boy was distress would don't say with him and a place and deen, no the count. t
+----- diversity: 1.0
+----- Generating with seed: ""why, i can't do that, it ain't in the book."
+
+"we"
+"why, i can't do that, it ain't in the book."
+
+"well, they'd it's somebreakle was to mart's kind! said mury, and like sleton. there was a stett and children. tombod; secrecs. you are i dodog, i --fourn'ld any kill 'em crossly gratity they've happed to the boy, one had their noined!    yhouse theke
+lifely lightes of gone. the boy
+unitiouson. i reckon fru?"
+
+they scolder revide him he hod first. "heltened as this fool reoty. grougrn' kiskicing as t
+----- diversity: 1.2
+----- Generating with seed: ""why, i can't do that, it ain't in the book."
+
+"we"
+"why, i can't do that, it ain't in the book."
+
+"wellt less out. thy, s'el. fortif injun huck, you
+got with lay always. by the cold nopple. he remebven from this
+late,
+oh it was noins wantuing as upsionfully
+weeling uponce. then east in labmd himself! but they found at on-preaminlisbrjug flowed hoored empthing yourtere, they'll anyth. they're. pott bace creugion lep hang a stoking eyey auh;'p only his shelifeft
+nace
+was cullow. pet himined being
+Epoch 27/60
+128831/128831 [==============================] - 45s 352us/step - loss: 1.4001
+
+----- Generating text after Epoch: 26
+----- diversity: 0.2
+----- Generating with seed: " don't care whose tick he is--he's on my side of t"
+ don't care whose tick he is--he's on my side of the could hard and the and work. we got to see the could have a stranger for a come and said he was a long and said he was a body with a plays with a companies and the boy was not the straight the straight and the strick of the streat. the boy was a secret and the world and see a secret and the door the boy was a body that he was a long and the straight and the thing was a secret of the struck of t
+----- diversity: 0.5
+----- Generating with seed: " don't care whose tick he is--he's on my side of t"
+ don't care whose tick he is--he's on my side of the sure--he sat and more and good for the suffering bars and said:
+
+"i will the fool mumble, and any way and way if i recure and come the
+exart and come and no the ground. they were a creep from the straight poways come and she come and the woold like with a precilebout of the corting was a sockve, but the hand to the a cavern awful thinks the hand to see the regree, and she said to the good in th
+----- diversity: 1.0
+----- Generating with seed: " don't care whose tick he is--he's on my side of t"
+ don't care whose tick he is--he's on my side of the three at theine. the teaving of its wa pier, and tom say
+and pardion awful one this did and lavices of white the night, and for it. he sulded to home, the miles, saton starciss fling hrourest be anyieity that his momently
+discotable beckin from nownen. much around--but the boy made the
+most would helabted the simel, man ofee funnist worded itservest,
+did and this as us, and army at a from the i
+----- diversity: 1.2
+----- Generating with seed: " don't care whose tick he is--he's on my side of t"
+ don't care whose tick he is--he's on my side of the heart
+wander-byep, like whin
+hand piece was deserde--spolials.
+they of upon
+it. there was a good
+upon good into in the vigoismon the woods, and the been at once counte were well yell bigition. yes, it
+eaked an undrigion
+every pried. his smoble.
+liels soon bread with secerbus lay the uustlears so the tenvictarly, "say 'im --ejfomeforlat
+that you by" prowr fur".
+
+"cas mat s
+of moment! unconsciper
+Epoch 28/60
+128831/128831 [==============================] - 45s 350us/step - loss: 1.3895
+
+----- Generating text after Epoch: 27
+----- diversity: 0.2
+----- Generating with seed: "lapse and died. tom resolved that he would never
+t"
+lapse and died. tom resolved that he would never
+thing with and was a great was some bestownded to the great and said he said to the sprait was be and was a little him and he said to see a moment and said the spelling and said he had so he was the comforted and her some complice of the straigh with and had gone and was a little him and had so, and the corpse. the boy was the spreading and he was some complise that he was a shouldess and started a
+----- diversity: 0.5
+----- Generating with seed: "lapse and died. tom resolved that he would never
+t"
+lapse and died. tom resolved that he would never
+things and the little her with and said he was a saiding marbous to the issed of some
+great hand his man was and a sort of end alone and all the marbles upon the boy against better order time and the hand alone and stood and said he farling to be and said he could real spectacle as he fell the work, and so the washanting peaped to be
+achaking sure of good with the work, and said, and that the botto
+----- diversity: 1.0
+----- Generating with seed: "lapse and died. tom resolved that he would never
+t"
+lapse and died. tom resolved that he would never
+talk, and it ain't young clanar thought."
+
+"well, he
+f kned-only worded--"
+
+"how if
+she always she down," then we was time about outsime from nerg. he spiris at hin are. no cave, he 'a't get to rearched, if he hod was afterward lessening one in the me--and he store down and -; the reot and meding
+welver, a lie befret of miss has peeble.
+
+
+
+was whole reverte or his the
+girl bringed upinuted, and yel
+----- diversity: 1.2
+----- Generating with seed: "lapse and died. tom resolved that he would never
+t"
+lapse and died. tom resolved that he would never
+thankly until the seun we was mull rang tord much-poar
+addinged
+cried and reasonce!"
+
+tom said:
+
+"i won't now but war, "got the my laves me!"
+
+"so he pa't you're and!"
+
+"that waits of fun! and this to
+see, nener agantion of
+girl sharty. he
+would
+be mary sennent alife again! and old from suffered.
+
+now e, that stip
+out in tobquests farhites and whitemm. but it was me--!"
+
+"good and at thouselfce and
+Epoch 29/60
+128831/128831 [==============================] - 43s 335us/step - loss: 1.3867
+
+----- Generating text after Epoch: 28
+----- diversity: 0.2
+----- Generating with seed: "en there was a whole lot of talk 'bout dragging th"
+en there was a whole lot of talk 'bout dragging the charch, there was a shoved and her the floor, and the boys were and said:
+
+"i didn't him to the thing to the mind it and the found a moment and strear when the cread of the straight the mind and the straighes and streak the pickbor remembered the grave the floor, and the which the straighes of the floor, and the confidered the creature to the straighes and strear with a moment and strear the min
+----- diversity: 0.5
+----- Generating with seed: "en there was a whole lot of talk 'bout dragging th"
+en there was a whole lot of talk 'bout dragging the straigh any more. what harper and are the from the fear in the which was to come and her heart the first for he sours and his stame of the stand as the childrent strung to his heart last and school to be greade the house in the speed and dropped and said to his face to the slif the where the world for his soul of the stump to the long a leave. he was the boys with a right and hearts of the alway
+----- diversity: 1.0
+----- Generating with seed: "en there was a whole lot of talk 'bout dragging th"
+en there was a whole lot of talk 'bout dragging the
+toot a sentares, touble, and then childrent, whose course the end and trouble of hostkel, because and hasted to be. a chandel besiauss darlest
+griet in this new a slonred; but the prayered all adme at his tom tall heank of their cat; but this yedrs; without this fell his tempered on
+secmet with a widder part to bes all heir then could stand him time found with into to schood for as rained to be
+----- diversity: 1.2
+----- Generating with seed: "en there was a whole lot of talk 'bout dragging th"
+en there was a whole lot of talk 'bout dragging through when none enderytched reouge; a yell old
+a run as to regious the funged and mustmen took-cestated below, good out inguirest bomet's every other the get has so, and
+each out of succard, plaint; but
+when hes here, to brow, go
+on she. it won't! wish the most dreasually ! migh leanned the time on neemedanies."
+
+bround away he intoner, "clawlelds."
+
+"in'twmeaver toist, he-, nellos to comler outwa
+Epoch 30/60
+128831/128831 [==============================] - 44s 342us/step - loss: 1.3877
+
+----- Generating text after Epoch: 29
+----- diversity: 0.2
+----- Generating with seed: "ould get an advantage. after struggling till both
+"
+ould get an advantage. after struggling till both
+was to the morning, and the straight before the strowing of the mind when the morning, and well, with a moment and standing and struck with the felt as to see the strunkboing of the struck, and the missed to the boys was some time it was away and some time a little to see the struck. the welshman was a wild afraid of the thing the straight and the strong of the strunk--no the struck of the mind an
+----- diversity: 0.5
+----- Generating with seed: "ould get an advantage. after struggling till both
+"
+ould get an advantage. after struggling till both
+was a good like and work to the moment, in the master, the missel, and the time about that stand of the morning to his name the speriously strang hands and all the belt its heart before. he was a long and some that when to dead first the dressen of the than his hand like and the way, and then and who see a with and it was to light the choing with some with a floor. i want to the of thing they whom
+----- diversity: 1.0
+----- Generating with seed: "ould get an advantage. after struggling till both
+"
+ould get an advantage. after struggling till both
+well envilial mils out they home. then succot out; they haur sover of his nared with tom like down
+bestleble out himself were a spiritxding, good
+pusper was now shalling after the whore wake in the sunday--church out of the life. presently then, let creitatious had freg their miss,less of always, tree, mecluaing acrose; then
+it do
+triul ismiddented away. presently. then
+she cheeing,
+noons of them
+----- diversity: 1.2
+----- Generating with seed: "ould get an advantage. after struggling till both
+"
+ould get an advantage. after struggling till both
+bod sufficed would us now
+in youbly,
+you, amoall wasn's' heild, bermb tro i'll paptere       i wandin's me; joe flliped for the ruastly his home. what get lay. basted; an incliliautarch looking, deliver, never is ty against to bus kepses--he's kind beartatidness content kuirage of learnors canttal hoorsing to doubli it that give
+flabe of his chup
+to. "i maybe that?"
+
+"wom'!" with no, complece
+and
+Epoch 31/60
+128831/128831 [==============================] - 43s 334us/step - loss: 1.3919
+
+----- Generating text after Epoch: 30
+----- diversity: 0.2
+----- Generating with seed: ""
+
+tom began to fear that huck was right. misgivin"
+"
+
+tom began to fear that huck was right. misgiving and said he was a splending of the thing and struck to the struck to the lay with his secrite and said to the distreasy and started the stragger. the stranged the compan of the thing and struck and the standing and started the stragger, and started the stand the stand the boy as the stand the struck and said to the struck the stragger and the tree and the stranged and the standing and said the s
+----- diversity: 0.5
+----- Generating with seed: ""
+
+tom began to fear that huck was right. misgivin"
+"
+
+tom began to fear that huck was right. misgiving his paniat of clanger small with his pirate the standing to smocked the second the sure and cosent was the conscience and were the old made and struck him and sas to companions care and and a widow stove his sard it take the tature the small of the standing and dread the sorty those the corress of the seemed the stragh and struck and started the and he was sound some swom huckleberry of the stan
+----- diversity: 1.0
+----- Generating with seed: ""
+
+tom began to fear that huck was right. misgivin"
+"
+
+tom began to fear that huck was right. misgiving a wellar the island to the widers, out unanine. the pupbles, in a suffering if itiven mestanalion, huckxing averable, no. she could
+ho could hard--"
+
+"and listened you see no would ntlere nex sock
+witolk currust to even "it want, tos, spy domay knifey back."
+
+"will, i'll of but the frile the house, you've old" ."
+
+"i did whever say arocy'll-as--why "fell he refured it, you you epon his eye--?"
+
+
+----- diversity: 1.2
+----- Generating with seed: ""
+
+tom began to fear that huck was right. misgivin"
+"
+
+tom began to fear that huck was right. misgivingscles to recious.
+he behwon about. mensewand of-grekstunity. st
+and threaty himmed tostly griad--he wanted the time, ucculled the uncommong. from him shirless doring three kneer a
+gloomet follow the thing vitce fell.
+thisf--sking that been upon the old
+lessed; and hrondayed its in of heed thesed, tom, find
+lowters sabof irgives. point."
+
+"stile. you bet you'd tear that."
+
+"and imgnife any wom.
+t
+Epoch 32/60
+128831/128831 [==============================] - 43s 335us/step - loss: 1.3860
+
+----- Generating text after Epoch: 31
+----- diversity: 0.2
+----- Generating with seed: " until that man was dead and he had seen the corps"
+ until that man was dead and he had seen the corpsricks of the widow the boy of the middled and the mind and said and the world and the straight to the window the straight and he was sound and had been straight the window dead and the straight of the spreading again and had been he was and the straight the window the straight of the country and he had been the straight of the straight the straight to the would have was a great to the word, and he
+----- diversity: 0.5
+----- Generating with seed: " until that man was dead and he had seen the corps"
+ until that man was dead and he had seen the corpsss. he was a great least the here to the survally the distance.
+
+"shut the tears and no all him the with time. i want to get to scours of the wearn distanch and said:
+
+"in a sent of a moment a way in a moment and had had he courars was a pirates, rivored out on the strain and had come to her heart with its bough and enter the our with a comfort the sperated to chunk to aromented and collard of the
+----- diversity: 1.0
+----- Generating with seed: " until that man was dead and he had seen the corps"
+ until that man was dead and he had seen the corpsombanly. the
+sid cave. the thinger for then court rose by the scoures out and when the generanteting a churcking
+hemed s
+and got itun while before; toon's tom run.
+
+
+
+had cofted huck
+s    two
+any deadumuldour, and at hop the nigger. n'othing it till a on the persons in his manisted to -
+
+tom had bunded hooe's hours of the boy below lay go and the copplay of the wanding woods;
+said
+pinsmide of
+tom
+
+----- diversity: 1.2
+----- Generating with seed: " until that man was dead and he had seen the corps"
+ until that man was dead and he had seen the corpsey got seemed
+to-surunded and youngefully
+un, and oleave ,gar last with when yo, turnce the mytharity in the hoursey. tom sa courselids, mumiled catfuy, of a moctly and his intere that beented --"nehd it frigared to itight. no, and
+   itieak sy, in the hand-ponforar do
+dropting judgern of i wearn thy well bucky mon he
+withles, toom her next begreetw off
+ei; snarkefre. abore when tever tom
+givernaa
+Epoch 33/60
+128831/128831 [==============================] - 47s 363us/step - loss: 1.3858
+
+----- Generating text after Epoch: 32
+----- diversity: 0.2
+----- Generating with seed: "e solemn by
+old traditions. spirits whispered in t"
+e solemn by
+old traditions. spirits whispered in the strait was a lood, and the boys was a boy. he was a great was about the boy was a long and the world and the words for the world of the world and the graaning a thing and the waded and streat and the while; was a lood, and the world and the world and the boys were the was sould started and the correst of the straight and strock of the mind--and the words to the world and the strait before the w
+----- diversity: 0.5
+----- Generating with seed: "e solemn by
+old traditions. spirits whispered in t"
+e solemn by
+old traditions. spirits whispered in the
+  idfull flower. when they were as struck for the beart and the words and face hards and and the world marbles broke that they were a most forther and was and the visiired the half-elaps of his boys could mart and the place of the window-come, and the mattered. the boy gint by the strong and the strunkswing, and it take a moment and said to dream to the world and soundless so candle to the arm
+----- diversity: 1.0
+----- Generating with seed: "e solemn by
+old traditions. spirits whispered in t"
+e solemn by
+old traditions. spirits whispered in the sandly alog resuapponed; white harpely! tom you'll
+draw," one why studders, under's."
+
+"and the fearh of the our with a look."
+
+and walked for a moment, ribbed limping and forth. then he top pace frieice the. he presed for injustly foring of distressmose every sould and it felt bird. tom gravely. a very said.
+
+the thisselvess well; and going to
+arrylumber out, and becky took him and
+glimpped to
+----- diversity: 1.2
+----- Generating with seed: "e solemn by
+old traditions. spirits whispered in t"
+e solemn by
+old traditions. spirits whispered in the ecelre.
+
+".oheper weaking? yes gimmancy."
+
+"oh, tom, tom. mart. chacks, it shapche so defurt, warg, that sid
+not broke the colres. he cauld ammuipersiage-boye cross had so undeammy fillage; was his stals happinedver
+day, a thought,
+  niepches and form,
+and gratitude there wantlabliblersace in the woulds--recely, who got a days, climbed impning--tift tackleberbyhoted toiese leastuce.. we've pot
+Epoch 34/60
+128831/128831 [==============================] - 46s 358us/step - loss: 1.3834
+
+----- Generating text after Epoch: 33
+----- diversity: 0.2
+----- Generating with seed: "d joyously, shook up the details of his anatomy fr"
+d joyously, shook up the details of his anatomy from his strained of the strained and ready and the strains and had hearting and the strains and had hearting a little of the strains and the strains and said:
+
+"i'll great to the strain of the sent of the said the strains the stranger and the surefully the stranger and the surefully and the sent and the stranger and his self and his strained along and his said the strains and said:
+
+"i'll tell the
+----- diversity: 0.5
+----- Generating with seed: "d joyously, shook up the details of his anatomy fr"
+d joyously, shook up the details of his anatomy from the silence, and the boys gettered
+himself to the new an about the little and in his face and been a can outtering almost avinon out of the surefull and with a wind fire of the strained and the seiles of the was cry, and huck was sound his the time. the boy hall say, and it was a body spreading all the strain of a body was heart that hard all me with the stanguin.
+
+and went to his that chee
+ned
+----- diversity: 1.0
+----- Generating with seed: "d joyously, shook up the details of his anatomy fr"
+d joyously, shook up the details of his anatomy friences straspend onsid
+alabtle herself
+throut the earcess. he romage uponter after amd droaning the blaby, by just camed, round one as hained mure, yese with his houring aftern arm in head. another thring of a
+net backmance--bere--"
+
+"he
+long--"
+ the their low, because phry, and warp and let him. the much with blirthern that cly dieled she s, ound tor firms. it telt
+tistare out as he could amd irg
+----- diversity: 1.2
+----- Generating with seed: "d joyously, shook up the details of his anatomy fr"
+d joyously, shook up the details of his anatomy frafted down by cakes as stood harring. when thed brean dream, a criey of
+droaning filld at the happently-saint over night grn
+walching
+upon in the whispeane of the hard in said if if his. ther with the curued line
+with jeating cry,ns upon speping. he fuckmn, was so distand the
+from on noo, as
+weeking bedding; said every little tails asrisp bypor "on as medean found. we, itjen--nee, enlant
+down!"
+
+
+Epoch 35/60
+128831/128831 [==============================] - 44s 341us/step - loss: 1.3795
+
+----- Generating text after Epoch: 34
+----- diversity: 0.2
+----- Generating with seed: "ii
+
+the harder tom tried to fasten his mind on his"
+ii
+
+the harder tom tried to fasten his mind on his sent were some into anything with a many and said to his secret and said to the same he was a man and the surefult and the straight and the surefully but the way the straight the same time, and the words words and said to the straight the pate of the surefully the welshman was a long, and said to see a long and the words and said to see the semply of the same the straight and the same to the serm
+----- diversity: 0.5
+----- Generating with seed: "ii
+
+the harder tom tried to fasten his mind on his"
+ii
+
+the harder tom tried to fasten his mind on his face to his great withing with and the while and so sentally were any on its
+soring into a house of a word, and made to his into a circust. then the searched;
+and being made and went with of the corpst--dragged to comp and a many was upself, the pind and a long and
+creath of the most was to days were lated it, and have as he said away of the stanging and the greasembling, and pate some way men wo
+----- diversity: 1.0
+----- Generating with seed: "ii
+
+the harder tom tried to fasten his mind on his"
+ii
+
+the harder tom tried to fasten his mind on his the first--yest war-op-roft as yon found away, comlads--and sandy, and the old he would blabodlips to been's."
+
+"what do a small your moments and o-caltions of yed kill on tard."
+
+"cnlaighten your hide-ys."
+
+"rogerion saed?"
+
+"saying so,
+before kes--and
+know him all huck ain'l shanitree."
+
+the boys
+that
+soibg good at. the carchoned again, nowiagh "glon't thankful, you you come it with yoursel! al
+----- diversity: 1.2
+----- Generating with seed: "ii
+
+the harder tom tried to fasten his mind on his"
+ii
+
+the harder tom tried to fasten his mind on his house with to crossed a glowing mar, old fest. tom festoving labody, and i wish him tell-hight up
+the
+creat missers partoubly
+waiply-hiskin't. whons as it thoushward."
+
+"why, he
+wagaying i know let a compar
+of achoy a
+fefisiint! but a. "i caie themself, what pick and wing" in trock, to!
+then she would tom nook at
+one made a hocped
+his
+withted, and si. said it twilfy, for tom marurd; a brapsing lo
+Epoch 36/60
+128831/128831 [==============================] - 43s 336us/step - loss: 1.3795
+
+----- Generating text after Epoch: 35
+----- diversity: 0.2
+----- Generating with seed: "e boys could have touched him.
+
+"hurry, men!" he s"
+e boys could have touched him.
+
+"hurry, men!" he said to be say a long and the time to the struck and the time and stranger of the straigh the streat--but the work and stood and the comple and the concerned the boys was a cave the stray his struck of the work, and the comple and the welshman found the boy and the boys were the window the boy a great was a concerned to the comple and the boy was a long and the time to the streat.
+
+"well, that's a
+----- diversity: 0.5
+----- Generating with seed: "e boys could have touched him.
+
+"hurry, men!" he s"
+e boys could have touched him.
+
+"hurry, men!" he said to the tree a remore in the howly
+by the rest and down and said the boy,
+and there was a long and complecewcked the boys said he glad the delight and a flook was suneakusy of the collew great which was laced by the old said into the sad his owning some corronce and gone it was a long and dread of the took and dropped it to have a good, and the savern a sull and the concerned his lance of the h
+----- diversity: 1.0
+----- Generating with seed: "e boys could have touched him.
+
+"hurry, men!" he s"
+e boys could have touched him.
+
+"hurry, men!" he sispend fill were troubled fixr more.
+
+"lome by his iney leaving and a "loar'd you --'o pirate-sicewy, and wondo. i did be foom, oh, any siblatricing hoke effod enough inteal long, and thelesson, he had knised tom saudd ammost and fear the bar. and he resol in fre creeted by with about out about the time me before
+coverness--
+
+"sid looking
+i or tog."
+
+"no
+day, tom aefon'lllmen unon it."
+
+"burough o
+----- diversity: 1.2
+----- Generating with seed: "e boys could have touched him.
+
+"hurry, men!" he s"
+e boys could have touched him.
+
+"hurry, men!" he slipped how more. miltent adny bods't worozen "be than you'll upon not iguat, how."
+
+"'em again, that he
+shold herching
+of a suppel aaper
+thing questost, and flooked of
+raftest over, now; case; and after once fight afsceum that tom pocked to drunkminped the neichen-coot; these counted abroouse not more,
+door was heilks jubble breakly yest of the dimble. mleal dience, repeasonly, leach of half, no!
+
+Epoch 37/60
+128831/128831 [==============================] - 45s 346us/step - loss: 1.3840
+
+----- Generating text after Epoch: 36
+----- diversity: 0.2
+----- Generating with seed: " that night. they had a humble look,
+and when huck"
+ that night. they had a humble look,
+and when huck was a body was a spring and the words and say and the were face of the woods, and the were and the words and the woods and the woods was a grave and the words and the were the strait was some with and the words and the woods, and the words and the words and the words and streat and the readire the woods and the words and the boy would said it and the words and the minds and the work and the woods
+----- diversity: 0.5
+----- Generating with seed: " that night. they had a humble look,
+and when huck"
+ that night. they had a humble look,
+and when huck could be a little and the mattered the facture. the boys been laft, and they were with a cavern upon the first to the knife of a corpss-things, he had so voice did not the woody and did not ways. they were that such with their the died! he would have been back there into the way curies for the corpse. and say saw this was the face a woods,
+--that were a feft in a widow but "have no way a moment."
+----- diversity: 1.0
+----- Generating with seed: " that night. they had a humble look,
+and when huck"
+ that night. they had a humble look,
+and when huck made owie became shardsag-
+in a lay quirt was now, and the leasted from nox awful. they
+suncesy moblep boy she had slighed the conceral feation,
+ripoings rain light doage any glush a, by a thought. you ain't flak. wocth hushpe the night along, and just at
+hands; "sh-ywingor that door, they don't could happy to things wait it went with ruin,. then
+   tepins in a sprot alones and sleep there that
+----- diversity: 1.2
+----- Generating with seed: " that night. they had a humble look,
+and when huck"
+ that night. they had a humble look,
+and when huck and wom's--i
+hoped gain's the red? did
+feel tounthtly bacl bednn it ladurth, and louk entice fre!
+
+
+the gream two things.
+
+ant grateffendorous but hy went every params,
+and they:
+
+"woot a your warm always be must i'll close on, say a picture to i
+hav, pick in. watemed aw wound lup wentrint.
+
+theiredly
+him the ayspetings' jag
+sences."
+
+"inthal searching a
+way there:
+anillened that eih hadneds took
+Epoch 38/60
+128831/128831 [==============================] - 43s 335us/step - loss: 1.3771
+
+----- Generating text after Epoch: 37
+----- diversity: 0.2
+----- Generating with seed: ""i'll tell you. the back door of that no. 2 is the"
+"i'll tell you. the back door of that no. 2 is the word and the seat, and she was a long and the time. the boys was the comfort the word and the word to the word and the word to the way a straight as the word and the word to the word to the still the word to the word and the straight the way a sharps, and the still the time. they were possible to the ways to the ways to the sungar the still the straigh and the dismal the terrort of the statemonit
+----- diversity: 0.5
+----- Generating with seed: ""i'll tell you. the back door of that no. 2 is the"
+"i'll tell you. the back door of that no. 2 is the roal topees to the and reached and back and for awful toppless the feath after that candle to was a this fully, and the boys with the courarss the single the master strunk--and with a house, and the owner about her tears and she was a spectaus to seems and she fack a leach and with a fair was by the lost he could not hear hard and for the such he could do the cave,
+and stood the woods a coverite
+----- diversity: 1.0
+----- Generating with seed: ""i'll tell you. the back door of that no. 2 is the"
+"i'll tell you. the back door of that no. 2 is the comfort was funcligated byle time. fome had writled backsated as gratity on other of the unvane young his undruting
+personsts without--and with the nron't beg! tom, you trooe your gratiars say's gratious, i'll be."
+
+"oh, you
+looked with."
+
+"oh, i'll wagy a    te
+wen. it know it long, and. come throwhig youmy. who see straig time."
+
+they
+regulaals with it-strunk. they     ye cans--dragked meanchor
+----- diversity: 1.2
+----- Generating with seed: ""i'll tell you. the back door of that no. 2 is the"
+"i'll tell you. the back door of that no. 2 is the wodhating aidig. she come amoats neaside.  upfusousy wascholit, waster! unfurted out, and not
+vaices. half, their ledne. it firsted, pupprage in the sank, tom's face in their judge.
+
+then he was mere. fanlts of
+your to mame," where the a piratish of scaire and wither, cleat alwayss neperthing, and said themssleppoure face comeave libboyed
+at that had sciping. theighed but around. a
+distaccion. "t
+Epoch 39/60
+128831/128831 [==============================] - 43s 335us/step - loss: 1.3771
+
+----- Generating text after Epoch: 38
+----- diversity: 0.2
+----- Generating with seed: "t over. we'll wait for
+you when we get to shore."
+"
+t over. we'll wait for
+you when we get to shore."
+
+"i done a mile to the comming and she was a moment at the strained and straight to the way a straight heart was a long and the word to the straight of the door the more and she was a moment of the strained and the strained and streared the strained of the strained and the strained and he said:
+
+"well, they're was a moment of the mind and so whoke he was a straight the straight the straight of the
+----- diversity: 0.5
+----- Generating with seed: "t over. we'll wait for
+you when we get to shore."
+"
+t over. we'll wait for
+you when we get to shore."
+
+"i done it away about the tank and still any on, the world under the back the body the was back the boys was a mirse and hard and he was so the course to the strained of the thing. then the boy judh. it darched the child, and said:
+
+"in one and said it seem and see and the whole a mall suredwudly the reperted and the me and straight the last mast the boy would read and then so came for the mound
+----- diversity: 1.0
+----- Generating with seed: "t over. we'll wait for
+you when we get to shore."
+"
+t over. we'll wait for
+you when we get to shore."
+
+"came every face it."
+a"'ll one give a malter
+a kreep of forth coirsed. a
+one overwhery mouthe any the face, nightly rylefonder come back of time, ain't
+ain't up! well, she so mocther it have doan see, and seemed you came to it. the teary
+nesse and thry now. they tried ,gastence
+from toward again poor forther the
+chat's forth and say. aones. ,goy flestort along to she said the re. they don't is n
+----- diversity: 1.2
+----- Generating with seed: "t over. we'll wait for
+you when we get to shore."
+"
+t over. we'll wait for
+you when we get to shore."
+
+"well, what wasve the frill thinget nobwads, tom side the
+bast-s,pontion lerd themsylibng for a year. i want to seemiars upon the youm'llples xried
+attil, and said:
+
+"condy following up every koed, vision, and maybe wight! that's it."
+
+hothant foot at the rocket of other heard. tom said:
+
+"i been, non."
+
+"yef neither'n," hepen helpetionfore one vairsed. who me malf-clowerant there said hand by an
+Epoch 40/60
+128831/128831 [==============================] - 44s 342us/step - loss: 1.3795
+
+----- Generating text after Epoch: 39
+----- diversity: 0.2
+----- Generating with seed: "ink it was in
+some foreign country.
+
+the minister "
+ink it was in
+some foreign country.
+
+the minister and the straggin of the stranger for the stranger and the straggin with his straggin on the stranger that the cours and the cours with the stranger and had been little and the constived and had been face and the strash and the creasess and the worls and the creases to the stranger and the strang dead to the course and the stranger and the fear the change the stranger and the time the time. then th
+----- diversity: 0.5
+----- Generating with seed: "ink it was in
+some foreign country.
+
+the minister "
+ink it was in
+some foreign country.
+
+the minister and boys said he was some treed at the ad
+the confouse that she was dreamble to the boys' have and is heard the body he got to girls of persons with the winds and was a fest such a girl and then the got cryxing and was and they was the boys was said that the strang of the dreadful tearing the time. the silence they were a care in his hand himself the hole in a said--that's a little anybody happose
+----- diversity: 1.0
+----- Generating with seed: "ink it was in
+some foreign country.
+
+the minister "
+ink it was in
+some foreign country.
+
+the minister to-gressed
+thank-in cult mercile on sy, his ancring and hoodfuld and
+proped cry's
+beddance."
+
+"what! chilly, cun!"
+
+tom poired the terrors undisud woodly in the feaking. but imping glarting a tiffered, comenn,
+trash yout them, accued to see and
+under them still and a
+dill. and the boys,
+is head, far-codicupior and with, tugging on the e suddidjsghy was bricky
+fow in into it became farting alfue.
+
+
+----- diversity: 1.2
+----- Generating with seed: "ink it was in
+some foreign country.
+
+the minister "
+ink it was in
+some foreign country.
+
+the minister by thatchers of the light singlieals
+nind gave about this murreocen, wrock won't-'grimi?"
+
+"before comen encilated, tackle
+for; i can'tk-bo doctor, soitle.
+tom coare they were time, at the wordided everything forth--harper, 'hp! foun
+can't             "that's beent' anything," so he had endomed the hamed, stale till, not the nigged toell him every
+yatingly, more upon then giveng in "down on right
+Epoch 41/60
+128831/128831 [==============================] - 43s 335us/step - loss: 1.3779
+
+----- Generating text after Epoch: 40
+----- diversity: 0.2
+----- Generating with seed: "he frying-pan for supper, and used up half of the "
+he frying-pan for supper, and used up half of the new the stranger and some time to the string and so he was to the boys would be say and she said to the stranger and some time. the master was a chillered the sunganding and the stranger and the stranger for the countrow they were been candle and the stranger and so and the stranger and some time to see his collay and to the widow the time. the silensice. they were been some time. they were course
+----- diversity: 0.5
+----- Generating with seed: "he frying-pan for supper, and used up half of the "
+he frying-pan for supper, and used up half of the dark.
+
+the the dead and had been occurred him in the stranger, and then there was a cogor ran his mind and dread they could be finally some tomboukne there was a things some candle the boys had "on here of a work, and so he was if you can to him to the sure and like any oth, tom."
+
+"sid and in the course and in the streat in the still and he was to seem hards and more and it to sunk to the dismal
+----- diversity: 1.0
+----- Generating with seed: "he frying-pan for supper, and used up half of the "
+he frying-pan for supper, and used up half of the ba fence, under it dect wisk, and he ragged
+him.
+the dark had now; and hucker some mbreat in that they would ha'n't -there!"
+
+"yes, huck--roof she or it do to keep wind."
+
+"her knees again."
+
+"and there was the busited and seal, a still? what was a good conord--oud for him
+in the shull was what dark the one."
+
+they ben hards of their gone! but ever tom her toward
+so and she ssecule. wros
+with
+an t
+----- diversity: 1.2
+----- Generating with seed: "he frying-pan for supper, and used up half of the "
+he frying-pan for supper, and used up half of the facoted strung tom hig once, framed about perseczuoctere. brought
+in her 'is miken,
+an twing on "glad and it."
+
+the cripce come. up some bey broad to no much after, as molad feel over enegew. long
+these make an his amoke, gloriousls knocken,
+servic. too detimed,     a
+tree! as shar so round. in! oug agannion candles, i triud enonslings--for they weres into next clotheanly. i dinowy strash at of "g
+Epoch 42/60
+128831/128831 [==============================] - 43s 336us/step - loss: 1.3745
+
+----- Generating text after Epoch: 41
+----- diversity: 0.2
+----- Generating with seed: "eel; for his eye fell upon the stolid
+face of inju"
+eel; for his eye fell upon the stolid
+face of injun joe's was the straited and the world with the straisher the mater the boy stread the straished and the boy did not was a longent and the straisher the world and the straished and the water and the straised to the was the straised and said:
+
+"i wouldn'll the could have the world."
+
+"i wouldn't say a mighty with you the world."
+
+"why, i wish and it was a mind and stranger the words, and the woods
+----- diversity: 0.5
+----- Generating with seed: "eel; for his eye fell upon the stolid
+face of inju"
+eel; for his eye fell upon the stolid
+face of injun joe's the hood out and could have the from the stump to the hand and the thing from the distare of the more of the while to the kneels the strong the
+strunkatch of the surficetchessed to the whispered the stranger
+strear he could be was the
+water and the woods, it was to from his heart and would was harper, and the woods, and the the littless strearing and the missess the straised and a missesca
+----- diversity: 1.0
+----- Generating with seed: "eel; for his eye fell upon the stolid
+face of inju"
+eel; for his eye fell upon the stolid
+face of injun uponrown's no eyes-drathed, why not his mouth you, and i saught ey sweat a mouther not late. let wyour down his took him inclos, from the morning injoat counter not his widow for the keenteriased
+injuping still wrash apor any of it, pnowing to their come flow stir; no. the boy lordy, for howejted.
+
+"came a red! was him. myself, ride. stope curgade--wouldn't round that i ain't me had napon a mome
+----- diversity: 1.2
+----- Generating with seed: "eel; for his eye fell upon the stolid
+face of inju"
+eel; for his eye fell upon the stolid
+face of injun joe's
+ditfuly
+peacity, for then to scought ingerforace. i wouldn't ask mouth, i know. 'tplg oth freg the unner untilk away to 'sik, and shame rrewd
+agreed tobs"yed had flet have a issife, ain't always amruduan follow it was sapied had had book hangatchel, fass,
+the
+poor your use-grip yet huck's poor knowarse-bunk our-y!"
+
+anythirl
+red up .fes-rike, use drame throust, the incled back with whititi
+Epoch 43/60
+128831/128831 [==============================] - 43s 335us/step - loss: 1.3763
+
+----- Generating text after Epoch: 42
+----- diversity: 0.2
+----- Generating with seed: "pped in at the door and caught a glimpse
+of the pi"
+pped in at the door and caught a glimpse
+of the pirate. the world and the world and the way and the strain and the way and the welshmaned to be a great and the way the boys were and the way and stood and the straight to the widow the way and said:
+
+"i was to the way and there was a study, and then the well a stragging the way the world with and the way the still and the way and the way the straight and the widow said, and the world with and the s
+----- diversity: 0.5
+----- Generating with seed: "pped in at the door and caught a glimpse
+of the pi"
+pped in at the door and caught a glimpse
+of the pick. the mined was placked to side of his hands, and then the well suppent his straggences of the talk. they was sid and they went on his thing started him. he had had to said, and then in the still and said:
+
+"well you."
+
+"well, tom, if you'd ever to the straigh if you'd have with hood a--and it.
+
+the much in a little tenter and began to cart of a priviled and the day and the gravely. he had much
+----- diversity: 1.0
+----- Generating with seed: "pped in at the door and caught a glimpse
+of the pi"
+pped in at the door and caught a glimpse
+of the pissend
+were themselves eniling, and long
+sin'ile from the cave!"
+
+"swof mary."
+
+and
+they nerr and
+nackle drof up
+ights that the hardly had rele. huck
+had half and bovester,
+for he
+had went on caskeeps and moraup huckleberry there were a moment now bound at the vithaning a-riading,
+and
+he ow to go to ei-les swerelf a bell of the horsed thenspitionce if she could drast of
+stimber
+and comforty for the
+----- diversity: 1.2
+----- Generating with seed: "pped in at the door and caught a glimpse
+of the pi"
+pped in at the door and caught a glimpse
+of the pirate; the
+pyws had fight byesivels emonwe! to
+chunk ladsiki?"
+
+nouch to bluth forbg
+easy unskin--joe, my
+he skeeting bi of last thromttoned
+neottauprihy granding herroes smoke wappented somethiafsion, no things, thatcher. i must
+rag away a sait sirrch; the luhayly, but all the
+elsonrersning as had ansuy
+infecey in the mate
+for a small opchiply nattles
+pirable purged elaciesting are. at once from h
+Epoch 44/60
+128831/128831 [==============================] - 43s 337us/step - loss: 1.3765
+
+----- Generating text after Epoch: 43
+----- diversity: 0.2
+----- Generating with seed: "t's a
+lie. i won't look."
+
+she put the jacket away"
+t's a
+lie. i won't look."
+
+she put the jacket away and the strait and the strash and the straiger, and then the world said:
+
+"then the dead to the conscient and said to the straiged to the strait with the strawger of the boy and the many and said:
+
+"then the straight the strumptifued on the straight the straight the face the cave-contic out as to the full and the strait the strawger, and then then the strait of the house and the strait and the st
+----- diversity: 0.5
+----- Generating with seed: "t's a
+lie. i won't look."
+
+she put the jacket away"
+t's a
+lie. i won't look."
+
+she put the jacket away about her fres with the well the world and she, and then it was the whole the cave, and so the signed for mestant of the hearts of the soulh was so began to be.
+
+"oh, i don't know you this boy and the hand it. it was then to whisper to be remind. you got to the stray you took a little, so the tetter, tom. i don't be any hold what the stal to short to a awhere to the that the one back the dumpers,
+----- diversity: 1.0
+----- Generating with seed: "t's a
+lie. i won't look."
+
+she put the jacket away"
+t's a
+lie. i won't look."
+
+she put the jacket away, ward; and scatpurgesy, then the present with a dard strike to minardings. all streekful intring them their suffer not this aftherd, note him. helpens for baryly:
+
+"i gatwos."
+
+tom never drop he began plence met inuard he was suddenly funtaw sonsegint followen and emjons the face was make, lear
+way and diows. toldlcted followed to a littlippe by and ne'll it arm. when accodution amrowing wares by
+----- diversity: 1.2
+----- Generating with seed: "t's a
+lie. i won't look."
+
+she put the jacket away"
+t's a
+lie. i won't look."
+
+she put the jacket away by amonger. wentr for a ffarts. he goinglawakened among.
+cleated any havingly knet
+island, he
+orram sprenched of lawfod ay head to
+troocibghts if still steppiptic laded-aloner was agcues.
+pind off remumpers schoow:
+
+as he fithers, edguntiph
+had jaadure ockoncactorless'st sid
+that. forping
+had triff, dristed and ;tt-dosticy
+follt of sallay even fregchening he aniens
+    the night gailly.
+
+"tell a
+
+Epoch 45/60
+128831/128831 [==============================] - 45s 349us/step - loss: 1.3832
+
+----- Generating text after Epoch: 44
+----- diversity: 0.2
+----- Generating with seed: "spread down in it; also an old suspender, some
+bac"
+spread down in it; also an old suspender, some
+back to the words, and the boy would have had to the streasing huckleberry and went to the cave, and the children the boys were to the streal, and the hand to the streal, and the woods, and then he was to the widow was the cave, and the stray great and the time to the straight the stray the children the morning the woods, too straight the children to the stray there the woods to the widow there was a
+----- diversity: 0.5
+----- Generating with seed: "spread down in it; also an old suspender, some
+bac"
+spread down in it; also an old suspender, some
+back and the stood to the boys and they were streat! that they were to the hands down and marbous there to look to the straw the candog and the dead on the morning as the graves. the delivere and stood had cle"ting to the boy with the fence for a loagh and a weep with his speniones. he could hard the widder she, and stath a but there was a sent of the soulh company and the mind landing the girls to t
+----- diversity: 1.0
+----- Generating with seed: "spread down in it; also an old suspender, some
+bac"
+spread down in it; also an old suspender, some
+bactans now. it's the court. for two chat, injun just of sit hole, telse that found
+the strunkful and had had mechly--come to shoke fang again--if tom
+slike tar-give himself, trim hopterest to so
+and aft hiams weat in hardswreed, huck, lift the fear street, took a still wasged condawrouchly-tely. he
+was than their
+a tempert clots it was knowing if it bubbight grabped, still, and woms towner, with pre
+----- diversity: 1.2
+----- Generating with seed: "spread down in it; also an old suspender, some
+bac"
+spread down in it; also an old suspender, some
+back, mythabutard the
+dumallying that body-kneepteriding have wreel with mound in the handing from the
+formers wished time itsir bar's mostir yougeg riverliling. they bend up
+demprehan. tom's
+serming lay be tark a yaudisgr do the che."
+
+"why, you probranared. i got
+old who us ketch find droods. whuckway yousle, underinaver
+wnor, only le vackiting 'bof it haster, too gratefally forted tom turn. "thas
+Epoch 46/60
+128831/128831 [==============================] - 45s 347us/step - loss: 1.3780
+
+----- Generating text after Epoch: 45
+----- diversity: 0.2
+----- Generating with seed: " marvels to
+gaze upon in place of one. the boys we"
+ marvels to
+gaze upon in place of one. the boys were not the man the body becky was a little of the man beat the straight to the world of the little of the strengbbby coment of the stranger and tom said the stranger to the well to the man fast and the strail the strick, and the boys were a strash and the straight to the body boys were seas, and the time to the wadnre that the man being by the strail the court of the sermine and the world with the
+----- diversity: 0.5
+----- Generating with seed: " marvels to
+gaze upon in place of one. the boys we"
+ marvels to
+gaze upon in place of one. the boys went to said she said to the worthers were anything to hill the said. then the sermined from the spreading--and by the from the sun for the more. the woods and tome the things were could be in his yough the self to the widow save a pirade with the whicked to the fures of the welshman and his sent the little of his thing-fmectenes, and then the let out a stranger to be a tenres face that the very tom
+----- diversity: 1.0
+----- Generating with seed: " marvels to
+gaze upon in place of one. the boys we"
+ marvels to
+gaze upon in place of one. the boys were savins in a picture, and
+with a lettvere interest thrrutter, at once.
+
+
+the strose any over here in a painced,
+hhe, swebody wilh to make out of the still; and always thought of enow, and every
+morant muff with engrufft at talk,
+he was a fall--and conteaced a lergive an out in the breath, and tom said thongs of himself throor glored upon tom's
+are heacded
+upon to thees it was as in the expectest
+----- diversity: 1.2
+----- Generating with seed: " marvels to
+gaze upon in place of one. the boys we"
+ marvels to
+gaze upon in place of one. the boys were out,luct occapration-could
+bulon, a, aunt polly-sgimed, too mofee through
+tone as youre came gromy-.ally of it
+alley wrotien,'d see out areant! an it ordous, but tom took hidden imwir itir head with
+uppoanture. helper thought weul be  ursem
+you small roof we you drumped to ward!"
+
+"well to
+tharress oy--
+
+tom's for thase
+took an incerd here
+detting, undering?
+put so just to relir
+knew teave that
+Epoch 47/60
+128831/128831 [==============================] - 44s 341us/step - loss: 1.3788
+
+----- Generating text after Epoch: 46
+----- diversity: 0.2
+----- Generating with seed: "ool voice had
+acquired a peculiar intonation which"
+ool voice had
+acquired a peculiar intonation which had been so the counte and the boy that the counted and the counte and the child. the boys were a moment and the boys were the surefully to his strumption that the child, and the boys were sound and a fool to come a long and the thing was some the spring the counted and the wides and the child. the creader the were some the body some the widow to the close the close the child, and the wides and t
+----- diversity: 0.5
+----- Generating with seed: "ool voice had
+acquired a peculiar intonation which"
+ool voice had
+acquired a peculiar intonation which a more and the wides enough the distance and had struck the cave must him see himself, and the cat. he starment to the read and the way to a moment at the night of the surefold stretch and the fir. he would be a look and the smalle the best and the hand and she said the perpor the man and founders was before the distance of the sree becky tom and the sweep. the creoss of mestles. a straigh was to
+----- diversity: 1.0
+----- Generating with seed: "ool voice had
+acquired a peculiar intonation which"
+ool voice had
+acquired a peculiar intonation which he took the way which he friverdeed fir-tree will a brought expecting theike inved to to. and tom's head-uites were pet was house had a tree mangled inber the spriad, he take with his foold with the spread vinity      sob! to like the matter? do your
+that you it wack?"
+
+"i winds?"
+
+"go and a out of his after greast of with with always were bofte witr at once, but it afterbaught sucnnies of bourd
+----- diversity: 1.2
+----- Generating with seed: "ool voice had
+acquired a peculiar intonation which"
+ool voice had
+acquired a peculiar intonation which so outwion's sprengerss could hareds that the vide around upon--this boods note told out, a
+is
+morningints talk of
+the tifting
+partion. their atteecionouss lock to
+crembr. the divecioumly rous applefmice . everybody. i reckon some himy! with you--     srible
+if his bast, inavy will glike it
+make aunt wasnens fothered to wirlliked stange of his
+bourd.
+i bunded," ununuothy track the giverming almos
+Epoch 48/60
+128831/128831 [==============================] - 44s 339us/step - loss: 1.3844
+
+----- Generating text after Epoch: 47
+----- diversity: 0.2
+----- Generating with seed: "quented alleys, and shortly found himself at his
+a"
+quented alleys, and shortly found himself at his
+a faint and had the world, and was a long and the water to the face and had filled the comfort had been a gratition and the feating the same to the state becamed and said to the stragging the treet and comfort the water the speed and the face and stangle the door the water the treed of the mater to the mind and form. they were been forming of the stranger and had been a little stranger and the mind
+----- diversity: 0.5
+----- Generating with seed: "quented alleys, and shortly found himself at his
+a"
+quented alleys, and shortly found himself at his
+a fool stranger and becky there was and the trowing the children of the presine of the way and was best of his boys caller
+and thinkful down the intere and fine fanity for their first and finn and the cavefness the san, there with the fool and belied had show; and the boys was a body a
+felt at his dreach from her hand, and then he was a taling was for the face that had been a comfort had fight to t
+----- diversity: 1.0
+----- Generating with seed: "quented alleys, and shortly found himself at his
+a"
+quented alleys, and shortly found himself at his
+amelumbing; boys with amied, throwed off be open, upon it; said two been with hi water would triilalite death giving with cry, as amother, wandered to moman's other joe, noies was not over met a dead fool tom guast and of conserasre twon's'llm and wallor had you do you snifed swear--was good druck there suy a time, when lay spiriceing a
+rigat. with him, comfort he
+had burs bown there
+anstrosaoned s
+----- diversity: 1.2
+----- Generating with seed: "quented alleys, and shortly found himself at his
+a"
+quented alleys, and shortly found himself at his
+again their simplip
+had up
+and inut wos.
+they
+turned him for clace, ory collow knee villagree. and wallender
+den jactays, dead and you whispe, a
+crard ochut."
+
+"oh, nept, go it hat, creed a hood" lixtisffiline.
+
+"for msmind!" and or, thmbby the fustles! my for a twogevens of weetibltnm! with doght peally crayer becaumiaad, scall, and tell toots and gre becamed lepiasharing, smoked.
+
+"liuth, there a
+Epoch 49/60
+128831/128831 [==============================] - 43s 336us/step - loss: 1.3818
+
+----- Generating text after Epoch: 48
+----- diversity: 0.2
+----- Generating with seed: "lking in reverent tones of how tom did so-and-so t"
+lking in reverent tones of how tom did so-and-so the court was a gratity world. he would have the widow the widow the world. the court the strainar that the widow the strain was a straited the strained and the candle--the boys was a shade and the strained and strain when the first standing and the widow did not be the boy a shade him something and the time the boys were and the strain was a sharpsere and the strain was becky had fillered and the
+----- diversity: 0.5
+----- Generating with seed: "lking in reverent tones of how tom did so-and-so t"
+lking in reverent tones of how tom did so-and-so the emiled, and then he said:
+
+"well, there!"
+
+huck something found the sungass and the sercunity his eye of his not the sharpss, and you kill to the man and tom. why, i don't say a little down it if you want, and
+she see light to see a few and show of the path and the way a sureful to the sermons. they were upon and she shee while been found and now the boys was away muff a shade and chow reacead
+----- diversity: 1.0
+----- Generating with seed: "lking in reverent tones of how tom did so-and-so t"
+lking in reverent tones of how tom did so-and-so that young "sumks!" in streat boy hoped to been collays the halbace and more to netting the
+grasard. there other of vagen from as the two hand had till himsors, when leandodon leatuased at the suddenly he light scut dancle. let libfours.
+and whlensid bough down on the
+linely had denterity to then pups trant"
+said
+off
+his windone born "hold," and tom, mrsse. and it ke'blep in its cugrater curgast an
+----- diversity: 1.2
+----- Generating with seed: "lking in reverent tones of how tom did so-and-so t"
+lking in reverent tones of how tom did so-and-so tift her hands of pire. tom air di;ting. but i honiest tosly a hmentl right, and    "why, and
+some
+dralt-emy like to like to
+glownd? a rorp, and there andths face insterdalle; but. what's culle a momented. what't said hapsert--
+
+
+ wouldn't do the than trot
+one unoke littlefous untnake
+of pain. their doing with at
+with a secitesdion peace
+in the brollingk. firtie but i make tom. but i is him, and
+gi
+Epoch 50/60
+128831/128831 [==============================] - 44s 342us/step - loss: 1.3845
+
+----- Generating text after Epoch: 49
+----- diversity: 0.2
+----- Generating with seed: "id:
+
+"well, i don't know--but somehow it seems as "
+id:
+
+"well, i don't know--but somehow it seems as to the world and had think tom was a widow the world. the mind was sprenters of the world and stood of the strain was a stood to the mind and the stranger the strain was a moment and said the time. the silefully
+the world. the well a himself to the world and sat the worth and stood and the strain was by the sunganding the boy things in the strain was a moment was had to the strain the strain was t
+----- diversity: 0.5
+----- Generating with seed: "id:
+
+"well, i don't know--but somehow it seems as "
+id:
+
+"well, i don't know--but somehow it seems as he would not turn of the silence cland the of his stand to go it in the corring and new gratity of the every well world, tom was a leave to is.
+
+the boys were now the company was port of the pieces of delight and work and been in the mind and seemed to leave was that stood at the door to whicked the dreachou"le, that the tenre--the were and said the welch--it was mind in the time. he went the matc
+----- diversity: 1.0
+----- Generating with seed: "id:
+
+"well, i don't know--but somehow it seems as "
+id:
+
+"well, i don't know--but somehow it seems as to the matter, it blel things rain comrep them
+well trembled and san'tar't gone--echrumbing chellept fool wrugging aroug the crecknen took just and
+cave
+,goungod time throol!
+mp young, i bes   yeds, musy hea stops from it.
+it was lode the voganst--a how halr.
+
+"whole line to h pryart of the keperlefs." he blelase shapper trip faili? the dreckworldly upon it
+silence in a good enfeful by a portion s
+----- diversity: 1.2
+----- Generating with seed: "id:
+
+"well, i don't know--but somehow it seems as "
+id:
+
+"well, i don't know--but somehow it seems as he fetch after remonn lorphen toowidjed his
+depor was dre glisled having lay anmar save morreed, not.---s"iy."
+
+initper was utchieffy.
+
+"sid it pick."
+
+"viho exclair hudd, toms, stoar, mr."
+loortv
+was not contelt inwading le. it been teange by ruin was back. the snuryfullys pre, and he of an adming st. rrive at the plosset, and conviked or sackon shead; i ain't me, they're at, me a new, you'd mos
+Epoch 51/60
+128831/128831 [==============================] - 44s 340us/step - loss: 1.3835
+
+----- Generating text after Epoch: 50
+----- diversity: 0.2
+----- Generating with seed: "elves off--you've
+hendered me long enough."
+
+the c"
+elves off--you've
+hendered me long enough."
+
+the cread, and the strain the world of the boys stood to the world and the strain was that the strail that the stepped to the strain the stepped and the strain and the world of the for the straining the strain becky thatcher to the strain and stood to the strain the poor book, and the words and the stood the strain the strain the stepped. the world and the stepped the strain of the strain the strain an
+----- diversity: 0.5
+----- Generating with seed: "elves off--you've
+hendered me long enough."
+
+the c"
+elves off--you've
+hendered me long enough."
+
+the cra'nlight to go and so, it's that that was a little and this to the tree that the while the boys dissementions of the house and the soulh was here.
+
+"well, that's you it was the time a strail side a crain the reary of a cross in the small was not that he went on the window with the graves and reverently for her heart tree was the sourh and bentlerd the house, the crosss had must sort that was the
+----- diversity: 1.0
+----- Generating with seed: "elves off--you've
+hendered me long enough."
+
+the c"
+elves off--you've
+hendered me long enough."
+
+the cooded thisy well girls told mugh to its gress, with
+smart.
+the tirder, and    the world, up
+tones cried of
+their around upon, the thing
+had five
+sisodude the of alwittling.
+
+"vo-mys tomgrig, and
+give yourd the word mean? whitew--whey keep you it was not to see much!! with it."
+
+"what's deant off never haven'n
+a lant's died. a clangge great and their brill exerssed of the courims that
+stallously ro
+----- diversity: 1.2
+----- Generating with seed: "elves off--you've
+hendered me long enough."
+
+the c"
+elves off--you've
+hendered me long enough."
+
+the clivofiead and
+inupidow
+was the jo
+mornis, his
+spoed.
+the breattingcationless tetr lays up of m, a ly
+nothing strunk of the tree the meadbred, more
+blessed up whitmoup
+cliending sobby"
+gave roin so
+in him?"
+
+"well,
+both, so and
+givs this you."
+
+"you'll let nipped--?"
+
+"i
+never to the
+doy, tom!"
+
+"huck if yourd
+se, alaft that
+woods
+titted here! oh, but whis hearty no from that--?"
+
+he wouldn't lifte
+Epoch 52/60
+128831/128831 [==============================] - 44s 341us/step - loss: 1.3871
+
+----- Generating text after Epoch: 51
+----- diversity: 0.2
+----- Generating with seed: "ave, made another mark, and branched off in search"
+ave, made another mark, and branched off in search was for the boys said to the straight as the corpsridulm--"
+
+"what do the word, tom?"
+
+"oh, i want you a secret the chir!"
+
+"tom was a shard the distinct of the concerness and the strail the straight and the concerness the straight to the straight and the straight the straight the straight to the straight to the court was and streat again, and the children the straight and straight the straight o
+----- diversity: 0.5
+----- Generating with seed: "ave, made another mark, and branched off in search"
+ave, made another mark, and branched off in search rose the ground in the morning in the morning--school to be sunday-school straight as a prickbort and
+said it was not the boys phouth was now the boy know and the stepped and the straiging the entire the discorcise boys said he had coll whole light the sunckes, which a wriders of the world which little straight in the boy.
+
+"oh, i can't you can't be any of the
+wild, and it was the cour stood away
+----- diversity: 1.0
+----- Generating with seed: "ave, made another mark, and branched off in search"
+ave, made another mark, and branched off in search cre a tell a littures. he had get late to better leaden arous
+morning of end of the
+way all the
+cave-pocketion; huck. he moctores upon
+the dimad his a glonces of clied-breave inle.
+
+thrusing chays and she turnd his roast marbo ovit.
+
+a suiultered leckjulg
+with and go and nother magning.
+
+then you could say, all--formeriap. he "sof hurk or spirit for symienchont
+and the
+flaghing would supponded th
+----- diversity: 1.2
+----- Generating with seed: "ave, made another mark, and branched off in search"
+ave, made another mark, and branched off in search melrey first
+a ground. tom very peaple fen or. no guit ffring door
+had a pen-wonded awusterbing ining. tom hunled struck, corpop
+longerinful terrorning entolin so had geclry, problerwart that's perso-:
+
+"but sure
+they're yest     girls. tom more! even mestering her her" in had go ad, tom said wother
+the pick-hout tehss. i want to wouke speech good, wreep in
+with things is-mone-tow.
+
+"ohcort you e
+Epoch 53/60
+128831/128831 [==============================] - 43s 335us/step - loss: 1.3820
+
+----- Generating text after Epoch: 52
+----- diversity: 0.2
+----- Generating with seed: "s did as they had often done before--went to the c"
+s did as they had often done before--went to the cave, and they went to the stragg."
+
+they were some with the stragg.or the stragg. "issed to the stragg.oom said:
+
+"say, tom. what she was a bobst to the way all the stragg.or the thing satisface be the stragg. "yes, and they're any stood to the strait all the stragg."
+
+"well, it's the world, and so the strait and the stragg; she would seemed to the stragg, and stopped the distance of the stragg.or
+----- diversity: 0.5
+----- Generating with seed: "s did as they had often done before--went to the c"
+s did as they had often done before--went to the comfort to be
+and the raft many to be and said:
+
+"i can tick around the stury all the cave anywhery, tom. what had not with the settle of the holes to the down to the stragg
+and the first the boys elever, there was a such, and the boys were so the stuf drumps with the new struck and any on the suld-elulted. the thing the stolide. he was not began to do the stragg. "we
+as the slipsh began to widne t
+----- diversity: 1.0
+----- Generating with seed: "s did as they had often done before--went to the c"
+s did as they had often done before--went to the cosoy as faniting-away here and wake proofthed for sope strugg bytured
+thing. still
+in place of the inaffeces in the risgrain. back of herselusionlishing itself inutsess to his
+sapporand, he stud. but tom gave by nace, with wablation. but to cell to runly to his far tom labads stolidest clumpest up to go shoods.
+
+they was not thereish went this tehouge to find thrime; an a withesioual girls as die-
+----- diversity: 1.2
+----- Generating with seed: "s did as they had often done before--went to the c"
+s did as they had often done before--went to the cere!
+chapknive up. "sh!"
+
+she liple that
+sp anstreggent-hots lavingly honsiously fashon; water dark--ann tonrit gram's--run grappals for by at him. a dead yield himself diwed with could e!"
+
+an how he had hit neblon suffering-po ragesle of hunged, because of ottere, and thrawners and was at ra'lls-intol yoursel?"
+
+"and sid oycin said, with him." they cancr their those
+outding the day into huck, it
+Epoch 54/60
+128831/128831 [==============================] - 44s 343us/step - loss: 1.3903
+
+----- Generating text after Epoch: 53
+----- diversity: 0.2
+----- Generating with seed: "tairs?"
+
+the boys' breath forsook them. injun joe "
+tairs?"
+
+the boys' breath forsook them. injun joe and he said:
+
+"what it was a which that that was that the world and she said to see the boys white to the really the would be said:
+
+"i dono the world."
+
+"well, that's any hours and the word, tom. that's and the word, i was that the word, tom. then the water that the word and the words and the widow discopy of the world and the world to the boys was some time and the court and the word and the whi
+----- diversity: 0.5
+----- Generating with seed: "tairs?"
+
+the boys' breath forsook them. injun joe "
+tairs?"
+
+the boys' breath forsook them. injun joe had fight the stand that there was a boy of the villaget and the house with climword, tom said:
+
+"i'll let you. that, i with it."
+
+"well, i was a raft that they was some time. that, the most many had full this funder that he was potter was not before to is back on an harse and somethed. the which was began to glanced the word. he was and eye to stand to him and you said to the water that there was
+----- diversity: 1.0
+----- Generating with seed: "tairs?"
+
+the boys' breath forsook them. injun joe "
+tairs?"
+
+the boys' breath forsook them. injun joe said hear
+wilding at a little, now, my liver.
+
+the was stuff! vablore the cat by too.
+
+there was a fenble simb, i kn't on a conto of
+ten of than the ten! weilly with your an boge a homention with fly as a villany or otto-till the limen-could
+coulld lasd, to sigh and
+this midned, and brick with furters, only dientatimpfal mpiracy the
+crack--dark.
+tom gettled that
+roge and that magnt, too, present w
+----- diversity: 1.2
+----- Generating with seed: "tairs?"
+
+the boys' breath forsook them. injun joe "
+tairs?"
+
+the boys' breath forsook them. injun joe was fost mirss in --comen whot looking alove from
+tones enerlal. it. tom said:
+
+"nomy, somebid."
+
+tom --, that's anythanilor, too."
+
+"stalanting him."
+
+and she filleded persort cratent deddheing ac-monencing li; do
+thatever channting appleblared--it's the town'ts.
+     tetsobs. ."
+
+and injun bashon, every
+ut. we long over
+at once, clasict at himself faccturiely cleps ampacaals be drungard thpt. th
+Epoch 55/60
+128831/128831 [==============================] - 43s 338us/step - loss: 1.3827
+
+----- Generating text after Epoch: 54
+----- diversity: 0.2
+----- Generating with seed: " by she gave up, and let her hands drop; her face,"
+ by she gave up, and let her hands drop; her face, and the water and the water and the boys were said in the thing say and still was the world. there was a candles with the stranger the consticulart of the sunk the stragging and the water was the cave the treet. he was a great spreading the minutes and the world and the world and would be said the water the water was the the stragger. the boys were said the consented to the saturd and the thing w
+----- diversity: 0.5
+----- Generating with seed: " by she gave up, and let her hands drop; her face,"
+ by she gave up, and let her hands drop; her face, and a
+cave with his same the prosecule and the desire. the boys was nearly the water had been the rancher better the world in a menter and stole, and the house.
+
+the boys were and said:
+
+"how that. is a the tetter that. you get along."
+
+"well, i don't see here, you don't say the ped and to the time."
+
+"well, i mers of the tree on his a good so the world and passive the more was late and in the re
+----- diversity: 1.0
+----- Generating with seed: " by she gave up, and let her hands drop; her face,"
+ by she gave up, and let her hands drop; her face, about
+with sking. the facions
+was in its passible, and he seemed to his that readure them has remembered that as sandy with his refictate studprrual overintion was gone tomen had tearing that down, and he care after, and he wandered to jugv refeep
+him she ourd
+huck' the breath ere-bluised it a light away ly by the picking stair, a "fash, to is
+the trisad! pied. at his rowndion.
+breat the daying i
+----- diversity: 1.2
+----- Generating with seed: " by she gave up, and let her hands drop; her face,"
+ by she gave up, and let her hands drop; her face, with time so-b.
+down th eilxt cha"'ll you'd droat of me-'ucame one to tell to see them. that's ar to ever depand to won't."
+
+"that's he make that?" pind. the whole prose-voient to a patch that elave and triwl his
+ye
+door
+gray occomesing the cry, star out forput everym had fiftlen hort hads with nothing int herselfed-brusted as he gothed as sumber, presently! away en-bront,. presently at thels; an
+Epoch 56/60
+128831/128831 [==============================] - 43s 335us/step - loss: 1.3836
+
+----- Generating text after Epoch: 55
+----- diversity: 0.2
+----- Generating with seed: "dvantage. after struggling till both
+were hot and "
+dvantage. after struggling till both
+were hot and sat the sungud to the matter to the sung-bould and with a show the show the woods and smoked to the matter the panger and spred to the worth and the sungul and went and sat the world and spred to the sungumed to the woods the mind and world of the mind and spred to the sungle and spred to the widow the world was for the boy with his service the panger and sat the strean and said to the widow he wa
+----- diversity: 0.5
+----- Generating with seed: "dvantage. after struggling till both
+were hot and "
+dvantage. after struggling till both
+were hot and to his sane looking away, maybe looking the doorn the supper and had here and it was slow, and he sat in
+the cread, and sat the widder was the messed and had profasion was been late to it and strean
+with a her in
+the stanger was out and resull of the morning, and and it was person of a hours with a said, and huck was a the thing been eash of his mind. the woods good and a here to spectations with
+----- diversity: 1.0
+----- Generating with seed: "dvantage. after struggling till both
+were hot and "
+dvantage. after struggling till both
+were hot and inble to.
+
+the from this heart.jiknhend nowchous children lost
+flumped. it
+shookey thought injun joe as to triol and
+they wight of tewn
+every some again. it was
+by then. huck, my panding granne of tenss; and beong some away remored to bet it away to
+the house his blake; and
+, too marterns, above in the longing every ducting. he tried with a might. the ashitchiering with passage le and
+new lesst wi
+----- diversity: 1.2
+----- Generating with seed: "dvantage. after struggling till both
+were hot and "
+dvantage. after struggling till both
+were hot and lifting.
+
+e'll ye fail, old. injun joe'f opered corly from his judgles, with a young morye his
+line! then his
+mirse and roged the knwats, there savarisvont on this fole getting?"
+
+"look opation away at your af flu!" tom show work-phenday will mumb thrrunoww flacking
+uphsmogh. now, with. eshing greve viess. feller-crilarding to a yeint
+reviiey, poor theney
+wages. a droping to le be
+by with frickene
+Epoch 57/60
+128831/128831 [==============================] - 43s 335us/step - loss: 1.3861
+
+----- Generating text after Epoch: 56
+----- diversity: 0.2
+----- Generating with seed: "few and so
+delightful that they only made the achi"
+few and so
+delightful that they only made the achilly and the words and some widow they were the which that he was a gravely and the words of the boys strungly the world and the strail the boys said he was a widder. the boys started to the concers, and the widow the word her heart before the conserust that he was not that the words and the strail that he was a could seemed and the strail was some time he was a great and the such a that the strail
+----- diversity: 0.5
+----- Generating with seed: "few and so
+delightful that they only made the achi"
+few and so
+delightful that they only made the achily. now the way the consernged of the entire as of the same back that he was the that the strail up to could seem to his hand who be school and the longers of the sore and the cressed that he was and stood a way now the boys stood a studers of the little boys were noor that had go in the thing he was some as the head and the master, and there was a resure by the sound and the wail was and some tre
+----- diversity: 1.0
+----- Generating with seed: "few and so
+delightful that they only made the achi"
+few and so
+delightful that they only made the achiled
+tears. down, now's good on a right
+studf-! i got to home do. i got to call me new "so" way, as he was by that if no. then one lesssking. somethiasboy looked, and whucks. tom went him to
+being what
+he was filerst
+solidefurness and concaude by tom said
+g's say, and i wdon you'll going! well, i know it's some and a ture--e
+was for that. flownag, but so feltherce, auntle prockets of the, a things
+----- diversity: 1.2
+----- Generating with seed: "few and so
+delightful that they only made the achi"
+few and so
+delightful that they only made the achismonn. it ely
+kin the nifllation.
+
+
+
+go to neverning
+of defride show of his head of day's-foring this sorrow of butcathinly being "to
+him you ever have been so nowens and i do the dohy, that hollow moging him of new. mr-nought youn't th me down i --can'tess alones."
+
+"well, that?"
+mysome good-pack of her swhere--don't voice as
+it cuffer!"
+tom. tr asher. but the graves.
+and they ever taving up the
+Epoch 58/60
+128831/128831 [==============================] - 44s 342us/step - loss: 1.3824
+
+----- Generating text after Epoch: 57
+----- diversity: 0.2
+----- Generating with seed: "oor fellow's face was
+haggard, and his eyes showed"
+oor fellow's face was
+haggard, and his eyes showed one and the strang and the stally and the strang something and she was a strang and the materation and street and the doorning in the strang and his souls and he was a way the cave, and the morning and the strang and said he was and the strang and the strang and a body and the boys was a share the two the way the stand, and then she was a place and said he had a shee and she was the body and the
+----- diversity: 0.5
+----- Generating with seed: "oor fellow's face was
+haggard, and his eyes showed"
+oor fellow's face was
+haggard, and his eyes showed at the way as it was no the pull to the cave and the materathing and said harper and the and was water with leave ceats and the fureing he was and conspiculed studfult. he was a lay and where the boy knew done had the tree the back and heard the back the casemant the street
+the thing the and the cave and had fine a grave and the lookerly, but a sky, and he was the body and summer restly as to the
+----- diversity: 1.0
+----- Generating with seed: "oor fellow's face was
+haggard, and his eyes showed"
+oor fellow's face was
+haggard, and his eyes showed boy and doing, and so he wan, were piratsy; he wards herhourly, since's haish--is. then insiderabip stole,    thupond his anwug.
+
+"no. there's
+yed and muff only are."
+
+he was the
+at. he it was under to heath?
+conite of one of boask any own windin--followel, in the ward, and began to vast as before. it
+to theil at the sumill, with the very were consediuld, with the boy begglafs as places scellowed
+----- diversity: 1.2
+----- Generating with seed: "oor fellow's face was
+haggard, and his eyes showed"
+oor fellow's face was
+haggard, and his eyes showedwscloolly catrivers. the cumprayiblinustisfips. the men sleeth and ad. hung authsman; ntpe lightss and would be had leanous come formings. i'd said i schcked to awhoedly anyte of stead. this cape strike justensict gone fry but who could fellowed's net couviin with the dump small's."
+
+"whole, i
+couldn't stiled got it awok he see, say while, and we'll "vergingeds to the gang!"
+
+the potter.; and
+Epoch 59/60
+128831/128831 [==============================] - 44s 338us/step - loss: 1.3917
+
+----- Generating text after Epoch: 58
+----- diversity: 0.2
+----- Generating with seed: "ity at hard labor became adamantine in
+its firmnes"
+ity at hard labor became adamantine in
+its firmness and the boy was the boy was a way and started to his straight to the thing said to the time. the boy were a way a could be a breath and said that the cave and the time the distance and the stranger and started a blant and strean the time of the sures. the time he was a breath and the strain way, and the presently the time the cave and standing to the whisper way. the word and the creat and the s
+----- diversity: 0.5
+----- Generating with seed: "ity at hard labor became adamantine in
+its firmnes"
+ity at hard labor became adamantine in
+its firmnes said he was word the terror of the little of door, and door, and he catecct for a time. there was a
+card and a mister that was presently to see a caver, and the boy fair and said to she concerson that were not the houses and had dist all the time of the troom of the shard to the cave, and looked a way and change to their came of the while that the whater gratitude to the cave in the setteness. it
+----- diversity: 1.0
+----- Generating with seed: "ity at hard labor became adamantine in
+its firmnes"
+ity at hard labor became adamantine in
+its firmnes gave the
+village was detretingge. tom as.
+then it's a get at us,--tchatcher, a sumper! with men, at this a what down and the door
+hal- raft of day, way at the all taverm. a dismanval seeant whispered hucken.
+
+then the lass-baugh of be filless in his concidence, know. the inaven as would bight of it wawhwing of onedvered of spectacled and neitted gapped in
+the great noage.
+
+sware hoods and by
+nopr
+----- diversity: 1.2
+----- Generating with seed: "ity at hard labor became adamantine in
+its firmnes"
+ity at hard labor became adamantine in
+its firmnesenst unwateantle ai'
+make like. joe up."
+
+"prewchy."
+
+"gight--echan warn it's me
+came tryledence. was tearing not, andmakyne!'s a bultence.
+huck, if no."
+
+"huck' 'me
+was."
+
+"if theic as pottle fre. stread, and
+untrunias to amratisias. outstre thefess usemwahear, clacinger saided,
+down clilk. negged
+stream.
+
+away. then be joe" stanglaw then when the waited up,
+with detold in the a yank. light
+Epoch 60/60
+128831/128831 [==============================] - 44s 338us/step - loss: 1.4071
+
+----- Generating text after Epoch: 59
+----- diversity: 0.2
+----- Generating with seed: " "praise god
+from whom all blessings flow--sing!--"
+ "praise god
+from whom all blessings flow--sing!--and the stranger was a spent the stranger and then the spellared and strangened the stranger when the strengly the stranger and the street, and then so the tree and still the strengly the street, and then the stranger street, and then then the still the stranger and the stranger and the strean
+and some the strengly the stranger and the stranger and some the spelling and street of the street, and t
+----- diversity: 0.5
+----- Generating with seed: " "praise god
+from whom all blessings flow--sing!--"
+ "praise god
+from whom all blessings flow--sing!--and so he ready and sow the sunday, and the strang up the sheiverile. he took the steps with the floor, and then he was a read, and then the sunnar from the and stoll the tree, and she would loud the while and she would say the ready of the sanks and the tenner and street, and he sprang a time on the sprence, and he had was an explon the children of the whishever and stood still to the stranger
+ha
+----- diversity: 1.0
+----- Generating with seed: " "praise god
+from whom all blessings flow--sing!--"
+ "praise god
+from whom all blessings flow--sing!--he took more to the open, saybassly for us and sat let noodder odljosy deaduit of the dead. tom said:
+
+"no, there's frian and seen't was the whispery eyes. tom temgelus ago, whee fear in the other all had hil'blabffrain the
+thing sumper was after nooking for the whole being made the riff word."
+
+"oh, a keesoly like direst on her wrother to be a oppuporing staught everude things facooning on the ni
+----- diversity: 1.2
+----- Generating with seed: " "praise god
+from whom all blessings flow--sing!--"
+ "praise god
+from whom all blessings flow--sing!--and meded sof do
+other and so. then he fad-another's loss what its chakeb to jugblacks, siving to remembered erabnishe-laiciased then so far screedfuld been up on facing with a momentans, bechatilging teth
+only therereare of who, as mrany friend in sweep
+casouply! soon't, injun joe that willing thet while lined an examiled with its refure then't."
+
+"wom some herem. good
+was to snurie, then i'll a
+
+(tensorflow) C:\Users\mmata\Desktop\NN>

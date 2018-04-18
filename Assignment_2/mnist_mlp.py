@@ -8,7 +8,7 @@ from __future__ import print_function
 
 from sklearn.metrics import confusion_matrix
 import numpy as np
-
+import matplotlib.pyplot as plt
 import keras
 from keras.datasets import mnist
 from keras.models import Sequential
@@ -68,3 +68,19 @@ normalized_cm = cm.astype('float') / cm.sum(axis=1)*100
 print('Confusion matrix : \n', normalized_cm)
 lowest_vals = np.diagonal(normalized_cm).argsort()[:3]
 print('Most missclassified digits : ', lowest_vals)
+plt.plot(history['loss'])
+
+plt.plot(history['val_loss'])
+plt.title('model loss')
+plt.ylabel('loss')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='upper right');
+plt.savefig('model_loss_mlp.png' )
+
+plt.plot(history['acc'])
+plt.plot(history['val_acc'])
+plt.title('model accuracy')
+plt.ylabel('accuracy')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='upper right');
+plt.savefig('model_acc_mlp.png' )

@@ -8,7 +8,7 @@ from __future__ import print_function
 
 from sklearn.metrics import confusion_matrix
 import numpy as np
-
+import matplotlib.pyplot as plt
 import keras
 from keras.datasets import mnist
 from keras.models import Sequential
@@ -67,11 +67,11 @@ model.compile(loss=keras.losses.categorical_crossentropy,
               optimizer=keras.optimizers.Adadelta(),
               metrics=['accuracy'])
 
-model.fit(x_train, y_train,
+history = model.fit(x_train, y_train,
           batch_size=batch_size,
           epochs=epochs,
           verbose=2,
-          validation_data=(x_test, y_test))
+          validation_data=(x_test, y_test)).history
 score = model.evaluate(x_test, y_test, verbose=0)
 print('Test loss:', score[0])
 print('Test accuracy:', score[1])
@@ -83,3 +83,21 @@ normalized_cm = cm.astype('float') / cm.sum(axis=1)*100
 print('Confusion matrix : \n', normalized_cm)
 lowest_vals = np.diagonal(normalized_cm).argsort()[:3]
 print('Most missclassified digits : ', lowest_vals)
+
+plt.plot(history['loss'])
+plt.plot(history['val_loss'])
+plt.title('model loss')
+plt.ylabel('loss')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='upper right');
+plt.savefig('model_loss_mnist.png' )
+
+
+
+plt.plot(history['acc'])
+plt.plot(history['val_acc'])
+plt.title('accuracy')
+plt.ylabel('accuracy')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='upper right');
+plt.savefig('cnn_accuracy.png' )

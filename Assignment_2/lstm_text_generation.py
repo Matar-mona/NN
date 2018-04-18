@@ -21,7 +21,10 @@ import io
 
 path = get_file('nietzsche.txt', origin='https://s3.amazonaws.com/text-datasets/nietzsche.txt')
 with io.open(path, encoding='utf-8') as f:
-    text = f.read().lower()
+   text = f.read().lower()
+# load ascii text and covert to lowercase
+
+
 print('corpus length:', len(text))
 
 chars = sorted(list(set(text)))
