@@ -60,7 +60,7 @@ vae.add_loss(vae_loss)
 vae.compile(optimizer='rmsprop')
 vae.summary()
 
-emnist = spio.loadmat('/EMNIST/emnist-letters.mat')
+emnist = spio.loadmat('emnist-letters.mat')
 
 x_train = emnist["dataset"][0][0][0][0][0][0]
 y_train = emnist["dataset"][0][0][0][0][0][1]
@@ -96,11 +96,15 @@ vae.fit(x_train,
 # build a model to project inputs on the latent space
 encoder = Model(x, z_mean)
 
+y_partial = y_test[:7200,:].reshape(7200)
 # display a 2D plot of the digit classes in the latent space
 x_test_encoded = encoder.predict(x_test, batch_size=batch_size)
-plt.figure(figsize=(6, 6))
-plt.scatter(x_test_encoded[:, 0], x_test_encoded[:, 1], c=y_test)
-plt.colorbar()
+x_test_partial = x_test_encoded[:7200,:]
+
+fig, ax = plt.subplots(figsize=(6, 6))
+sc = ax.scatter(x_test_partial[:, 0], x_test_partial[:, 1], c=y_partial, cmap='rainbow')
+cbar = plt.colorbar(sc)
+cbar.ax.set_yticklabels(['a','b','c','d','e','f','g','h','i','j'])
 plt.savefig('letters_vis.png', dpi=300)
 plt.close()
 
