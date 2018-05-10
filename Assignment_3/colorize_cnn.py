@@ -41,7 +41,7 @@ def show_image(L_image, ab_image, ab_image_pred, Save=False, epoch=None):
 	ground_truth[:,:,0] = L_image[:,:,0]
 	ground_truth[:,:,1:] = ab_image*128
 
-	fig = plt.figure()
+	fig = plt.figure(figsize=(10,10))
 
 	ax = fig.add_subplot(221)
 	ax.imshow(L_image[:,:,0], cmap='gray')
@@ -59,14 +59,14 @@ def show_image(L_image, ab_image, ab_image_pred, Save=False, epoch=None):
 	ax.set_title('Predicted image')
 
 	ax = fig.add_subplot(224)
-	ax.set_title('Histogram')
+	ax.set_title('AB values of prediction')
 	ax.hist(prediction[:,:,1].flatten(), bins=40, alpha=0.4, label='green-red')
 	ax.hist(prediction[:,:,2].flatten(), bins=40, alpha=0.4, label='blue-yellow')
 	ax.legend()
 	ax.set_yscale('log') 
 
 	if Save:
-		plt.savefig('./predictions/prediction_{}.png'.format(epoch))
+		plt.savefig('./predictions/prediction_{}.png'.format(epoch), dpi=300)
 		plt.close()
 	else:
 		plt.show()
@@ -124,9 +124,12 @@ def train_model(model, X_train, Y_train, X_test, Y_test, num_batches, num_epochs
 
 	show_output = OutputObserver(50,model,X_train,Y_train)
 
-	model.fit(X_train, Y_train, validation_data=(X_test,Y_test), 
-			  batch_size=num_batches, epochs=num_epochs, callbacks=[show_output])
+	history = model.fit(X_train, Y_train, validation_data=(X_test,Y_test), 
+			  batch_size=num_batches, epochs=num_epochs, callbacks=[loss, show_output])
 
+	loss = history.history['loss']
+	val_loss = history.history['val_loss']
+	return loss, val_loss
 
 def main():
 	start = time()
@@ -138,10 +141,17 @@ def main():
 	
 	#Initialize model 
 	model = initialize_model(kernel_size=4, learning_rate=0.001)
-	train_model(model, X_train, Y_train, X_test, Y_test, num_batches=5, num_epochs=1500)
+	loss, val_loss = train_model(model, X_train, Y_train, X_test, Y_test, num_batches=5, num_epochs=1500)
+
+	plt.plot(np.arange(len(loss)), loss, label='Training loss')
+	plt.plot(np.arange(len(val_loss)), val_loss, label='Validation loss')
+	plt.legend()
+	plt.savefig('losses.png', dpi=300)
+	plt.close()
 
 	end = time()-start
 	print('Time taken: {:.1f} s'.format(end))
+
 
 if __name__ == '__main__':
 	main()
