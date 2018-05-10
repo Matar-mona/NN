@@ -10,7 +10,7 @@ from keras.callbacks import Callback
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten, BatchNormalization
 from keras.layers import Conv2D, MaxPooling2D, UpSampling2D
-from keras.optimizers import Adam
+from keras.optimizers import Adam, RMSprop
 from sklearn.model_selection import train_test_split
 
 
@@ -60,8 +60,9 @@ def show_image(L_image, ab_image, ab_image_pred, Save=False, epoch=None):
 
 	ax = fig.add_subplot(224)
 	ax.set_title('Histogram')
-	ax.hist(prediction[:,:,1].flatten(), bins=40, label='green-red')
-	ax.hist(prediction[:,:,2].flatten(), bins=40, label='blue-yellow')
+	ax.hist(prediction[:,:,1].flatten(), bins=40, alpha=0.4, label='green-red')
+	ax.hist(prediction[:,:,2].flatten(), bins=40, alpha=0.4, label='blue-yellow')
+	ax.legend()
 	ax.set_yscale('log') 
 
 	if Save:
@@ -113,7 +114,7 @@ def initialize_model(kernel_size, learning_rate):
 
 	model.add(Conv2D(2, kernel_size, padding='same', activation='tanh'))
 
-	model.compile(optimizer=Adam(lr=learning_rate), loss='mean_squared_error')
+	model.compile(optimizer=Adam(lr=learning_rate), loss='binary_crossentropy')
 
 	model.summary()
 
@@ -136,8 +137,8 @@ def main():
 	X_train, X_test, Y_train, Y_test = load_data(path)
 	
 	#Initialize model 
-	model = initialize_model(kernel_size=4, learning_rate=0.01)
-	train_model(model, X_train, Y_train, X_test, Y_test, num_batches=5, num_epochs=500)
+	model = initialize_model(kernel_size=4, learning_rate=0.001)
+	train_model(model, X_train, Y_train, X_test, Y_test, num_batches=5, num_epochs=1500)
 
 	end = time()-start
 	print('Time taken: {:.1f} s'.format(end))
