@@ -4,6 +4,8 @@ import glob
 import math
 import h5py
 from time import time
+import matplotlib
+matplotlib.use('agg')
 import matplotlib.pyplot as plt
 
 from keras.callbacks import Callback
@@ -114,7 +116,7 @@ def initialize_model(kernel_size, learning_rate):
 
 	model.add(Conv2D(2, kernel_size, padding='same', activation='tanh'))
 
-	model.compile(optimizer=Adam(lr=learning_rate), loss='binary_crossentropy')
+	model.compile(optimizer=RMSprop(lr=learning_rate), loss='mean_squared_error')
 
 	model.summary()
 
@@ -125,10 +127,13 @@ def train_model(model, X_train, Y_train, X_test, Y_test, num_batches, num_epochs
 	show_output = OutputObserver(50,model,X_train,Y_train)
 
 	history = model.fit(X_train, Y_train, validation_data=(X_test,Y_test), 
-			  batch_size=num_batches, epochs=num_epochs, callbacks=[loss, show_output])
+			  batch_size=num_batches, epochs=num_epochs, callbacks=[show_output])
+
+	model.save('color_cnn.h5')
 
 	loss = history.history['loss']
 	val_loss = history.history['val_loss']
+
 	return loss, val_loss
 
 def main():
@@ -141,10 +146,13 @@ def main():
 	
 	#Initialize model 
 	model = initialize_model(kernel_size=4, learning_rate=0.001)
-	loss, val_loss = train_model(model, X_train, Y_train, X_test, Y_test, num_batches=5, num_epochs=1500)
+	loss, val_loss = train_model(model, X_train, Y_train, X_test, Y_test, num_batches=5, num_epochs=1501)
 
 	plt.plot(np.arange(len(loss)), loss, label='Training loss')
 	plt.plot(np.arange(len(val_loss)), val_loss, label='Validation loss')
+	plt.xlabel('Epoch')
+	plt.ylabel('Loss')
+	plt.yscale('log')
 	plt.legend()
 	plt.savefig('losses.png', dpi=300)
 	plt.close()
