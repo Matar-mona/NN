@@ -116,7 +116,7 @@ def initialize_model(kernel_size, learning_rate):
 
 	model.add(Conv2D(2, kernel_size, padding='same', activation='tanh'))
 
-	model.compile(optimizer=RMSprop(lr=learning_rate), loss='mean_squared_error')
+	model.compile(optimizer=RMSprop(lr=learning_rate), loss='binary_crossentropy')
 
 	model.summary()
 
